@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to actual plugin</description>
+   <name>Navigate to Plugin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6a14754-b675-4a40-b10a-91233c777956</testCaseGuid>
+</TestCaseEntity>

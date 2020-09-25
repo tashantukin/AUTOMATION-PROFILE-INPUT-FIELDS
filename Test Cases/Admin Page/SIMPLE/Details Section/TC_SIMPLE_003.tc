@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if toggle up icon will hide the details section</description>
+   <name>TC_SIMPLE_003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9165a58e-860f-430c-bbdc-ff57065d66c4</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if details for Checkbox is correct</description>
+   <name>TC_UI_025</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7ee5c2a-695f-4ff5-bed0-28770cc69579</testCaseGuid>
+</TestCaseEntity>

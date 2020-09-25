@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if plugin description context is displayed on upper left section beside plugin desc icon</description>
+   <name>TC_UI_009</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e37e3122-f2af-4200-88cd-55fcc1a1aac7</testCaseGuid>
+</TestCaseEntity>

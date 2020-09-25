@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if details for Number is correct</description>
+   <name>TC_UI_023</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>04d47746-5c14-4663-a626-20c276138d8f</testCaseGuid>
+</TestCaseEntity>

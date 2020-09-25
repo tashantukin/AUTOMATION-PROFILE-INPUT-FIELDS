@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if 'Add Profile input field' button color is #fff (white)</description>
+   <name>TC_UI_014</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e888766c-c4e1-41c9-b550-5a65e8514d84</testCaseGuid>
+</TestCaseEntity>

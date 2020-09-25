@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if 'Add Profile input field' button will display pop up when clicked</description>
+   <name>TC_SIMPLE_002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc0ec62c-fb3c-4d12-a0fd-5f4a5c17f9bd</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if plugin description context text  is correct</description>
+   <name>TC_UI_010</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9151d2d-622a-481d-8393-99ed01405ead</testCaseGuid>
+</TestCaseEntity>

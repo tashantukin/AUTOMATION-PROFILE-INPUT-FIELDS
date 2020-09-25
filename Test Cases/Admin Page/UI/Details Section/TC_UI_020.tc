@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if details for Text is displayed</description>
+   <name>TC_UI_020</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1be9c0a7-4cf3-40fe-a0b6-dd9bb344566d</testCaseGuid>
+</TestCaseEntity>

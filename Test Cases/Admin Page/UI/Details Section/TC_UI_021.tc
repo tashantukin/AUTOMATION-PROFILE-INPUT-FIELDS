@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if details for Text is correct</description>
+   <name>TC_UI_021</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e01eed53-b0bd-4f6d-bbaa-0aeb77be37c0</testCaseGuid>
+</TestCaseEntity>

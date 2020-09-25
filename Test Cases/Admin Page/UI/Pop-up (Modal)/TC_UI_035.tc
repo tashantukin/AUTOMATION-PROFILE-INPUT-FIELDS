@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if 'Save Changes button color attribute is blue</description>
+   <name>TC_UI_035</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7e825888-d68d-4c62-8adf-a3e2cd8bf27d</testCaseGuid>
+</TestCaseEntity>

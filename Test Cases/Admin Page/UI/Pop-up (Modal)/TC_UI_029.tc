@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if close(x) button is displayed on upper right corner of the pop up</description>
+   <name>TC_UI_029</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a814a5d1-98f3-4b39-82a1-11bd9bb116da</testCaseGuid>
+</TestCaseEntity>

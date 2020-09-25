@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if 'How to use this Plug-in' link is clickable</description>
+   <name>TC_UI_007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4201fd30-e527-4afa-869d-a90ab66e35a5</testCaseGuid>
+</TestCaseEntity>

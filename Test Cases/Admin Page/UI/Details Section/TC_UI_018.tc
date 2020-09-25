@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if toggle up and down icons are visible beside (right) of Detail's header</description>
+   <name>TC_UI_018</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>61ad6ff0-a759-49ce-8cc4-f97ad2c08be0</testCaseGuid>
+</TestCaseEntity>

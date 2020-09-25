@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the plugin title is correct 'Profile Input Fields'</description>
+   <name>TC_UI_003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>05584bb2-4713-4e06-97da-69a6ad703ce9</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Admin login</description>
+   <name>Admin Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>962c3706-40de-4758-8a7a-84ee1820fa26</testCaseGuid>
+</TestCaseEntity>

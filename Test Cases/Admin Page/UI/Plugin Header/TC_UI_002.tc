@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if plugin title is displayed on upper left section beside plugin icon</description>
+   <name>TC_UI_002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b69c4f64-34fb-4894-8dbc-c3e54dcead92</testCaseGuid>
+</TestCaseEntity>

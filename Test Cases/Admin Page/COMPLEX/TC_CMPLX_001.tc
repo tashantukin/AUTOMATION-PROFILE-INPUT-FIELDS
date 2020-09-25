@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the plugin is correctly installed and accessible</description>
+   <name>TC_CMPLX_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3bb9cd5-ae04-440a-bd4f-db337d36aca5</testCaseGuid>
+</TestCaseEntity>

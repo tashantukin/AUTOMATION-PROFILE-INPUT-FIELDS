@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if Detail's header text is correct</description>
+   <name>TC_UI_017</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dde4384d-6bb4-48e8-9674-fce534f66651</testCaseGuid>
+</TestCaseEntity>

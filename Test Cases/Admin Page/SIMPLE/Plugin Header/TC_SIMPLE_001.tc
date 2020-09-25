@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if 'How to use this Plug-in' link will redirect to zendesk link</description>
+   <name>TC_SIMPLE_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c858fef0-fd70-4b37-8073-3ce4c92f4711</testCaseGuid>
+</TestCaseEntity>

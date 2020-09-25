@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if 'Add Profile input field' button text is displayed and correct</description>
+   <name>TC_UI_012</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>083b072d-b255-4e2d-af6b-27e6f6b4b7b2</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if deleted custom field has been removed on the User Settings</description>
+   <name>TC_CMPLX_014</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da13cba8-42c7-44ba-b68e-6ad11cc9d48c</testCaseGuid>
+</TestCaseEntity>

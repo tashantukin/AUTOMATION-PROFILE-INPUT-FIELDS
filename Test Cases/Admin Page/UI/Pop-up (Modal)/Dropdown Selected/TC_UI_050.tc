@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if input box 's value is empty</description>
+   <name>TC_UI_050</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aa598aa6-0f7c-47d3-9fd7-37cd2875be42</testCaseGuid>
+</TestCaseEntity>

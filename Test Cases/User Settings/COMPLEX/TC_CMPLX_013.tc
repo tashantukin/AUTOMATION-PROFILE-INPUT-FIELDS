@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if edited custom field has been rmodified on the User Settings</description>
+   <name>TC_CMPLX_013</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d50300d0-8f8f-4a38-9c4f-27cc14a5d5e1</testCaseGuid>
+</TestCaseEntity>

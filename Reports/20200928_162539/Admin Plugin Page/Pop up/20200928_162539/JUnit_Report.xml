@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pop up" time="48.295" tests="42" failures="1" errors="0">
+   <testsuite name="Pop up" tests="42" failures="1" errors="0" time="48.295" timestamp="2020-09-28 16:25:41" hostname="Natasha - 192.168.254.105" id="Test Suites/Admin Plugin Page/Pop up">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\GITHUB\\AUTOMATION-PROFILE-INPUT-FIELDS\\Reports\\20200928_162539\\Admin Plugin Page\\Pop up\\20200928_162539"/>
+         <property name="logFiles" value="D:\\GITHUB\\AUTOMATION-PROFILE-INPUT-FIELDS\\Reports\\20200928_162539\\Admin Plugin Page\\Pop up\\20200928_162539\\execution0.log"/>
+         <property name="attachments" value="D:\\GITHUB\\AUTOMATION-PROFILE-INPUT-FIELDS\\Reports\\20200928_162539\\Admin Plugin Page\\Pop up\\20200928_162539\\1601281575410.png"/>
+         <property name="hostName" value="Natasha - 192.168.254.105"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.121"/>
+         <property name="hostAddress" value="192.168.254.105"/>
+         <property name="sessionId" value="1f5310edefd6c3ca4fac49f384720bb8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Utilities/Admin Login" time="14.943" classname="Test Cases/Utilities/Admin Login" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:25:42 - [TEST_CASE][PASSED] - Test Cases/Utilities/Admin Login: Test Cases/Utilities/Admin Login
+
+2020-09-28 16:25:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-28 16:25:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-28 16:25:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-28 16:25:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-28 16:25:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-28 16:25:49 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-28 16:25:49 - [TEST_STEP][PASSED] - navigateToUrl(admin_url): Navigate to 'https://youhadmeathello.test.arcadier.io/admin' successfully
+
+2020-09-28 16:25:51 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathello.test.arcadier.io/admin' successfully
+
+2020-09-28 16:25:51 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2020-09-28 16:25:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-28 16:25:51 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_username"), admin_username): Text 'domtest' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2020-09-28 16:25:52 - [MESSAGE][PASSED] - Text 'domtest' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2020-09-28 16:25:52 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_password"), admin_password): Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2020-09-28 16:25:53 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2020-09-28 16:25:53 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Login/button_login")): Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2020-09-28 16:25:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Utilities/Navigate to Plugin" time="5.661" classname="Test Cases/Utilities/Navigate to Plugin" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:25:57 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Plugin: Test Cases/Utilities/Navigate to Plugin
+
+2020-09-28 16:25:57 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_plugin")): Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2020-09-28 16:25:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2020-09-28 16:25:59 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_profile")): Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2020-09-28 16:26:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_028" time="0.79" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_028" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:02 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_028: Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_028
+
+2020-09-28 16:26:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/label_customfields"), 0): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/label_customfields' is present
+
+2020-09-28 16:26:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 16:26:03 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/label_customfields' is present
+
+2020-09-28 16:26:03 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Description/btn_add")): Object: 'Object Repository/Admin/Plugin Page/Description/btn_add' is clicked on
+
+2020-09-28 16:26:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Description/btn_add' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_029" time="0.684" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_029" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:03 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_029: Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_029
+
+2020-09-28 16:26:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/btn_close"), 0): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/btn_close' is present
+
+2020-09-28 16:26:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 16:26:04 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/btn_close' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_030" time="0.375" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_030" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:04 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_030: Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_030
+
+2020-09-28 16:26:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/label_custom_name"), 0): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/label_custom_name' is present
+
+2020-09-28 16:26:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 16:26:04 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/label_custom_name' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_031" time="0.423" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_031" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:04 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_031: Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_031
+
+2020-09-28 16:26:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/text_custom_name"), 0): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/text_custom_name' is present
+
+2020-09-28 16:26:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 16:26:05 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/text_custom_name' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_032" time="0.439" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_032" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:05 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_032: Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_032
+
+2020-09-28 16:26:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/label_Type"), 0): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/label_Type' is present
+
+2020-09-28 16:26:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 16:26:05 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/label_Type' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_033" time="0.404" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_033" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:05 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_033: Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_033
+
+2020-09-28 16:26:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type"), 0): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' is present
+
+2020-09-28 16:26:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 16:26:05 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_034" time="0.454" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_034" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:05 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_034: Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_034
+
+2020-09-28 16:26:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/btn_save"), 0): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/btn_save' is present
+
+2020-09-28 16:26:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 16:26:06 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/btn_save' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_035" time="0.113" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_035" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:06 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_035: Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_035
+
+2020-09-28 16:26:06 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_036" time="0.503" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_036" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:06 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_036: Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_036
+
+2020-09-28 16:26:06 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/text_custom_name"), "value", "", 0): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/text_custom_name' has attribute 'value' with value ''
+
+2020-09-28 16:26:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 16:26:06 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/text_custom_name' has attribute 'value' with value '']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_037" time="1.366" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_037" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:07 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_037: Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_037
+
+2020-09-28 16:26:07 - [TEST_STEP][PASSED] - verifyOptionSelectedByValue(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type"), "textfield", false, 0): All options with value 'textfield' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2020-09-28 16:26:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 16:26:08 - [MESSAGE][PASSED] - All options with value 'textfield' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_038" time="0.716" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_038" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:08 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_038: Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_038
+
+2020-09-28 16:26:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/btn_save")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/btn_save' is clickable
+
+2020-09-28 16:26:08 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/btn_save' is clickable
+
+2020-09-28 16:26:08 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/btn_close")): Object: 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/btn_close' is clicked on
+
+2020-09-28 16:26:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/btn_close' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_005" time="1.953" classname="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_005" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:09 - [TEST_CASE][PASSED] - Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_005: Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_005
+
+2020-09-28 16:26:09 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Description/btn_add")): Object: 'Object Repository/Admin/Plugin Page/Description/btn_add' is clicked on
+
+2020-09-28 16:26:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Description/btn_add' is clicked on
+
+2020-09-28 16:26:09 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type"), "Number", false): All options with label 'Number' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2020-09-28 16:26:10 - [MESSAGE][PASSED] - All options with label 'Number' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2020-09-28 16:26:10 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/label_Options")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is NOT visible
+
+2020-09-28 16:26:11 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is NOT visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_006" time="1.014" classname="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_006" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:11 - [TEST_CASE][PASSED] - Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_006: Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_006
+
+2020-09-28 16:26:11 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type"), "Text", false): All options with label 'Text' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2020-09-28 16:26:11 - [MESSAGE][PASSED] - All options with label 'Text' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2020-09-28 16:26:11 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/label_Options")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is NOT visible
+
+2020-09-28 16:26:12 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is NOT visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_007" time="1.041" classname="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_007" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:12 - [TEST_CASE][PASSED] - Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_007: Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_007
+
+2020-09-28 16:26:12 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type"), "Checkbox", false): All options with label 'Checkbox' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2020-09-28 16:26:12 - [MESSAGE][PASSED] - All options with label 'Checkbox' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2020-09-28 16:26:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/label_Options")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is visible
+
+2020-09-28 16:26:13 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_008" time="0.957" classname="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_008" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:13 - [TEST_CASE][PASSED] - Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_008: Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_008
+
+2020-09-28 16:26:13 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type"), "Dropdown", false): All options with label 'Dropdown' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2020-09-28 16:26:13 - [MESSAGE][PASSED] - All options with label 'Dropdown' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2020-09-28 16:26:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/label_Options")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is visible
+
+2020-09-28 16:26:14 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_005" time="1.715" classname="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_005" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_005 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Plugin Page/Description/btn_add'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_SIMPLE_005.run(TC_SIMPLE_005:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601281539858.run(TempTestSuite1601281539858.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;#&quot; class=&quot;blue-btn al-middle&quot; data-toggle=&quot;modal&quot; data-target=&quot;#customfields&quot;>...&lt;/a> is not clickable at point (1709, 195). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;customfields&quot; id=&quot;customfields&quot; style=&quot;display: block; padding-right: 17px;&quot;>...&lt;/div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NATASHA-PC', ip: '192.168.254.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Natasha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63339}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1f5310edefd6c3ca4fac49f384720bb8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-09-28 16:26:14 - [TEST_CASE][FAILED] - Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_005: Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_005 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Plugin Page/Description/btn_add'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_SIMPLE_005.run(TC_SIMPLE_005:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601281539858.run(TempTestSuite1601281539858.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" class="blue-btn al-middle" data-toggle="modal" data-target="#customfields">...</a> is not clickable at point (1709, 195). Other element would receive the click: <div class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="customfields" id="customfields" style="display: block; padding-right: 17px;">...</div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NATASHA-PC', ip: '192.168.254.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Natasha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63339}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1f5310edefd6c3ca4fac49f384720bb8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-09-28 16:26:14 - [TEST_STEP][FAILED] - click(findTestObject("Admin/Plugin Page/Description/btn_add")): Unable to click on object 'Object Repository/Admin/Plugin Page/Description/btn_add' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Plugin Page/Description/btn_add'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_SIMPLE_005.run(TC_SIMPLE_005:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601281539858.run(TempTestSuite1601281539858.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" class="blue-btn al-middle" data-toggle="modal" data-target="#customfields">...</a> is not clickable at point (1709, 195). Other element would receive the click: <div class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="customfields" id="customfields" style="display: block; padding-right: 17px;">...</div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NATASHA-PC', ip: '192.168.254.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Natasha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63339}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1f5310edefd6c3ca4fac49f384720bb8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1601273077859.run(Script1601273077859.groovy:19)
+	... 13 more
+)
+
+2020-09-28 16:26:15 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Admin/Plugin Page/Description/btn_add' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Plugin Page/Description/btn_add'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_SIMPLE_005.run(TC_SIMPLE_005:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601281539858.run(TempTestSuite1601281539858.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" class="blue-btn al-middle" data-toggle="modal" data-target="#customfields">...</a> is not clickable at point (1709, 195). Other element would receive the click: <div class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="customfields" id="customfields" style="display: block; padding-right: 17px;">...</div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NATASHA-PC', ip: '192.168.254.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Natasha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63339}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1f5310edefd6c3ca4fac49f384720bb8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1601273077859.run(Script1601273077859.groovy:19)
+	... 13 more
+)
+[[ATTACHMENT|D:\\GITHUB\\AUTOMATION-PROFILE-INPUT-FIELDS\\Reports\\20200928_162539\\Admin Plugin Page\\Pop up\\20200928_162539\\1601281575410.png]]]]></system-out>
+         <system-err><![CDATA[2020-09-28 16:26:14 - [TEST_CASE][FAILED] - Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_005: Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_005 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Plugin Page/Description/btn_add'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_SIMPLE_005.run(TC_SIMPLE_005:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601281539858.run(TempTestSuite1601281539858.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" class="blue-btn al-middle" data-toggle="modal" data-target="#customfields">...</a> is not clickable at point (1709, 195). Other element would receive the click: <div class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="customfields" id="customfields" style="display: block; padding-right: 17px;">...</div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NATASHA-PC', ip: '192.168.254.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Natasha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63339}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1f5310edefd6c3ca4fac49f384720bb8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_006" time="0.815" classname="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_006" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:15 - [TEST_CASE][PASSED] - Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_006: Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_006
+
+2020-09-28 16:26:15 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type"), "Text", false): All options with label 'Text' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2020-09-28 16:26:16 - [MESSAGE][PASSED] - All options with label 'Text' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2020-09-28 16:26:16 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/label_Options")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is NOT visible
+
+2020-09-28 16:26:16 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is NOT visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_007" time="0.803" classname="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_007" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:16 - [TEST_CASE][PASSED] - Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_007: Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_007
+
+2020-09-28 16:26:16 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type"), "Checkbox", false): All options with label 'Checkbox' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2020-09-28 16:26:17 - [MESSAGE][PASSED] - All options with label 'Checkbox' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2020-09-28 16:26:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/label_Options")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is visible
+
+2020-09-28 16:26:17 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_008" time="0.809" classname="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_008" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:17 - [TEST_CASE][PASSED] - Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_008: Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_008
+
+2020-09-28 16:26:17 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type"), "Dropdown", false): All options with label 'Dropdown' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2020-09-28 16:26:17 - [MESSAGE][PASSED] - All options with label 'Dropdown' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2020-09-28 16:26:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/label_Options")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is visible
+
+2020-09-28 16:26:18 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_047" time="1.105" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_047" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:18 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_047: Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_047
+
+2020-09-28 16:26:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_039"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_039' successfully
+
+2020-09-28 16:26:18 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_039: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_039
+
+2020-09-28 16:26:18 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type"), "Checkbox", false): All options with label 'Checkbox' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2020-09-28 16:26:19 - [MESSAGE][PASSED] - All options with label 'Checkbox' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2020-09-28 16:26:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/label_Options")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is visible
+
+2020-09-28 16:26:19 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is visible
+
+2020-09-28 16:26:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_039' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_048" time="0.557" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_048" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:19 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_048: Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_048
+
+2020-09-28 16:26:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040' successfully
+
+2020-09-28 16:26:19 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040
+
+2020-09-28 16:26:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/btn_draggable")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_draggable' is visible
+
+2020-09-28 16:26:19 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_draggable' is visible
+
+2020-09-28 16:26:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_049" time="0.534" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_049" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:19 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_049: Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_049
+
+2020-09-28 16:26:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_041"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_041' successfully
+
+2020-09-28 16:26:20 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_041: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_041
+
+2020-09-28 16:26:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/txt_option_name")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/txt_option_name' is visible
+
+2020-09-28 16:26:20 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/txt_option_name' is visible
+
+2020-09-28 16:26:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_041' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_050" time="0.556" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_050" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:20 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_050: Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_050
+
+2020-09-28 16:26:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_042"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_042' successfully
+
+2020-09-28 16:26:20 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_042: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_042
+
+2020-09-28 16:26:20 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/txt_option_name"), "value", "", 0): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/txt_option_name' has attribute 'value' with value ''
+
+2020-09-28 16:26:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 16:26:20 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/txt_option_name' has attribute 'value' with value ''
+
+2020-09-28 16:26:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_042' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_051" time="0.583" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_051" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:20 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_051: Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_051
+
+2020-09-28 16:26:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043' successfully
+
+2020-09-28 16:26:21 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043
+
+2020-09-28 16:26:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove' is visible
+
+2020-09-28 16:26:21 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove' is visible
+
+2020-09-28 16:26:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_052" time="0.545" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_052" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:21 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_052: Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_052
+
+2020-09-28 16:26:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_044"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_044' successfully
+
+2020-09-28 16:26:21 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_044: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_044
+
+2020-09-28 16:26:21 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove' is clickable
+
+2020-09-28 16:26:22 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove' is clickable
+
+2020-09-28 16:26:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_044' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_053" time="0.581" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_053" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:22 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_053: Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_053
+
+2020-09-28 16:26:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_045"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_045' successfully
+
+2020-09-28 16:26:22 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_045: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_045
+
+2020-09-28 16:26:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option' is visible
+
+2020-09-28 16:26:22 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option' is visible
+
+2020-09-28 16:26:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_045' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_054" time="0.609" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_054" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:22 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_054: Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_054
+
+2020-09-28 16:26:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_046"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_046' successfully
+
+2020-09-28 16:26:22 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_046: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_046
+
+2020-09-28 16:26:22 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option' is clickable
+
+2020-09-28 16:26:23 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option' is clickable
+
+2020-09-28 16:26:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_046' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_039" time="0.805" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_039" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:23 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_039: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_039
+
+2020-09-28 16:26:23 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type"), "Checkbox", false): All options with label 'Checkbox' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2020-09-28 16:26:23 - [MESSAGE][PASSED] - All options with label 'Checkbox' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2020-09-28 16:26:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/label_Options")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is visible
+
+2020-09-28 16:26:24 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040" time="0.279" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:24 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040
+
+2020-09-28 16:26:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/btn_draggable")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_draggable' is visible
+
+2020-09-28 16:26:24 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_draggable' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_041" time="0.283" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_041" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:24 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_041: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_041
+
+2020-09-28 16:26:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/txt_option_name")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/txt_option_name' is visible
+
+2020-09-28 16:26:24 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/txt_option_name' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_042" time="0.286" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_042" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:24 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_042: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_042
+
+2020-09-28 16:26:24 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/txt_option_name"), "value", "", 0): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/txt_option_name' has attribute 'value' with value ''
+
+2020-09-28 16:26:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 16:26:24 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/txt_option_name' has attribute 'value' with value '']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043" time="0.3" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:24 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043
+
+2020-09-28 16:26:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove' is visible
+
+2020-09-28 16:26:25 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_044" time="0.273" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_044" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:25 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_044: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_044
+
+2020-09-28 16:26:25 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove' is clickable
+
+2020-09-28 16:26:25 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_045" time="0.276" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_045" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:25 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_045: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_045
+
+2020-09-28 16:26:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option' is visible
+
+2020-09-28 16:26:25 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_046" time="0.266" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_046" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:25 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_046: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_046
+
+2020-09-28 16:26:25 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option' is clickable
+
+2020-09-28 16:26:26 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Add Option Clicked/TC_SIMPLE_009" time="0.871" classname="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Add Option Clicked/TC_SIMPLE_009" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:26 - [TEST_CASE][PASSED] - Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Add Option Clicked/TC_SIMPLE_009: Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Add Option Clicked/TC_SIMPLE_009
+
+2020-09-28 16:26:26 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option")): Object: 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option' is clicked on
+
+2020-09-28 16:26:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option' is clicked on
+
+2020-09-28 16:26:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/new_option"), 0): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/new_option' is present
+
+2020-09-28 16:26:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 16:26:26 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/new_option' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Add Option Clicked/TC_UI_055" time="0.435" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Add Option Clicked/TC_UI_055" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:26 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Add Option Clicked/TC_UI_055: Test Cases/Admin Page/UI/Pop-up (Modal)/Add Option Clicked/TC_UI_055
+
+2020-09-28 16:26:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043' successfully
+
+2020-09-28 16:26:27 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043
+
+2020-09-28 16:26:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove' is visible
+
+2020-09-28 16:26:27 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove' is visible
+
+2020-09-28 16:26:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Add Option Clicked/TC_UI_056" time="0.436" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Add Option Clicked/TC_UI_056" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:27 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Add Option Clicked/TC_UI_056: Test Cases/Admin Page/UI/Pop-up (Modal)/Add Option Clicked/TC_UI_056
+
+2020-09-28 16:26:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040' successfully
+
+2020-09-28 16:26:27 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040
+
+2020-09-28 16:26:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/btn_draggable")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_draggable' is visible
+
+2020-09-28 16:26:27 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_draggable' is visible
+
+2020-09-28 16:26:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Remove button Clicked/TC_SIMPLE_10" time="0.936" classname="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Remove button Clicked/TC_SIMPLE_10" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:27 - [TEST_CASE][PASSED] - Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Remove button Clicked/TC_SIMPLE_10: Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Remove button Clicked/TC_SIMPLE_10
+
+2020-09-28 16:26:27 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/new_delete")): Object: 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/new_delete' is clicked on
+
+2020-09-28 16:26:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/new_delete' is clicked on
+
+2020-09-28 16:26:28 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/new_option"), 0): Web element with id: 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/new_option' located by 'By.xpath: //*[@class = 'maindiv ui-sortable-handle newOption']' is not present after '30' second(s)
+
+2020-09-28 16:26:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 16:26:28 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/new_option' located by 'By.xpath: //*[@class = 'maindiv ui-sortable-handle newOption']' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Close Button Clicked/TC_SIMPLE_11" time="0.697" classname="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Close Button Clicked/TC_SIMPLE_11" status="PASSED">
+         <system-out><![CDATA[2020-09-28 16:26:28 - [TEST_CASE][PASSED] - Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Close Button Clicked/TC_SIMPLE_11: Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Close Button Clicked/TC_SIMPLE_11
+
+2020-09-28 16:26:28 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/btn_close")): Object: 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/btn_close' is clicked on
+
+2020-09-28 16:26:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/btn_close' is clicked on
+
+2020-09-28 16:26:29 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/pop_up")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/pop_up' is NOT visible
+
+2020-09-28 16:26:29 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/pop_up' is NOT visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-28 16:25:41 - [TEST_SUITE][FAILED] - Pop up: Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_005 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Plugin Page/Description/btn_add'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_SIMPLE_005.run(TC_SIMPLE_005:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601281539858.run(TempTestSuite1601281539858.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" class="blue-btn al-middle" data-toggle="modal" data-target="#customfields">...</a> is not clickable at point (1709, 195). Other element would receive the click: <div class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="customfields" id="customfields" style="display: block; padding-right: 17px;">...</div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NATASHA-PC', ip: '192.168.254.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Natasha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63339}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1f5310edefd6c3ca4fac49f384720bb8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-09-28 16:25:41 - [TEST_SUITE][FAILED] - Pop up: Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_005 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Plugin Page/Description/btn_add'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_SIMPLE_005.run(TC_SIMPLE_005:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601281539858.run(TempTestSuite1601281539858.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" class="blue-btn al-middle" data-toggle="modal" data-target="#customfields">...</a> is not clickable at point (1709, 195). Other element would receive the click: <div class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="customfields" id="customfields" style="display: block; padding-right: 17px;">...</div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NATASHA-PC', ip: '192.168.254.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Natasha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63339}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1f5310edefd6c3ca4fac49f384720bb8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

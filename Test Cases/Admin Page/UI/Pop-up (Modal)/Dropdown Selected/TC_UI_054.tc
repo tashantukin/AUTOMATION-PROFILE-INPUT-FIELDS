@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if 'add option' button is clickable</description>
+   <name>TC_UI_054</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f83c7e2a-335a-4405-888d-1758bda7ee5d</testCaseGuid>
+</TestCaseEntity>

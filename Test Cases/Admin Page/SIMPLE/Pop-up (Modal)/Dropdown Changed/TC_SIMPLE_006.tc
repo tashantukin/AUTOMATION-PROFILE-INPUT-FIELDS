@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if Option section is not visible if 'Text' is selected'</description>
+   <name>TC_SIMPLE_006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>18ef1feb-98f8-4888-961d-36cb85050e8f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if custom name value is empty</description>
+   <name>TC_UI_036</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be3c8df7-1377-418f-8e72-e3ef4edf71dc</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if new custom field has been added on the User Settings</description>
+   <name>TC_CMPLX_010</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fb64106e-7d87-4197-8036-31d41443d006</testCaseGuid>
+</TestCaseEntity>

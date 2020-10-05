@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin Custom Field Maintenance" time="73.534" tests="3" failures="0" errors="0">
+   <testsuite name="Admin Custom Field Maintenance" tests="3" failures="0" errors="0" time="73.534" timestamp="2020-10-03 11:15:52" hostname="Natasha - 192.168.254.105" id="Test Suites/Admin Plugin Page/Admin Custom Field Maintenance">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\GITHUB\\AUTOMATION-PROFILE-INPUT-FIELDS\\Reports\\20201003_111549\\Admin Plugin Page\\Admin Custom Field Maintenance\\20201003_111549"/>
+         <property name="logFiles" value="D:\\GITHUB\\AUTOMATION-PROFILE-INPUT-FIELDS\\Reports\\20201003_111549\\Admin Plugin Page\\Admin Custom Field Maintenance\\20201003_111549\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Natasha - 192.168.254.105"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.121"/>
+         <property name="hostAddress" value="192.168.254.105"/>
+         <property name="sessionId" value="75fa18b810a4919419bc323ae630485a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Adding Custom Fields" time="31.375" classname="Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Adding Custom Fields" status="PASSED">
+         <system-out><![CDATA[2020-10-03 11:15:52 - [TEST_CASE][PASSED] - Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Adding Custom Fields: Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Adding Custom Fields
+
+2020-10-03 11:15:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-03 11:15:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-03 11:15:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-03 11:15:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-03 11:15:57 - [TEST_STEP][PASSED] - navigateToUrl("https://youhadmeathello.sandbox.arcadier.io/admin"): Navigate to 'https://youhadmeathello.sandbox.arcadier.io/admin' successfully
+
+2020-10-03 11:15:59 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathello.sandbox.arcadier.io/admin' successfully
+
+2020-10-03 11:15:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-10-03 11:16:01 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-03 11:16:01 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2020-10-03 11:16:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-03 11:16:01 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Plugin Page/Adding scripts/input_Your Email  Username_username"), "natasha@arcadier.com"): Text 'natasha@arcadier.com' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Your Email  Username_username'
+
+2020-10-03 11:16:02 - [MESSAGE][PASSED] - Text 'natasha@arcadier.com' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Your Email  Username_username'
+
+2020-10-03 11:16:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Admin/Plugin Page/Adding scripts/input_Your Password_password"), "I7a4UsMF9MiFJG0HdBZ4hg=="): Text ****** has been set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Your Password_password'
+
+2020-10-03 11:16:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Your Password_password'
+
+2020-10-03 11:16:02 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Adding scripts/input_Your Password_login-submit")): Object: 'Object Repository/Admin/Plugin Page/Adding scripts/input_Your Password_login-submit' is clicked on
+
+2020-10-03 11:16:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Adding scripts/input_Your Password_login-submit' is clicked on
+
+2020-10-03 11:16:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Adding scripts/span_Plug-ins")): Object: 'Object Repository/Admin/Plugin Page/Adding scripts/span_Plug-ins' is clicked on
+
+2020-10-03 11:16:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Adding scripts/span_Plug-ins' is clicked on
+
+2020-10-03 11:16:05 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Adding scripts/a_Profile Input Field")): Object: 'Object Repository/Admin/Plugin Page/Adding scripts/a_Profile Input Field' is clicked on
+
+2020-10-03 11:16:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Adding scripts/a_Profile Input Field' is clicked on
+
+2020-10-03 11:16:08 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Adding scripts/a_Add Profile Input Field")): Object: 'Object Repository/Admin/Plugin Page/Adding scripts/a_Add Profile Input Field' is clicked on
+
+2020-10-03 11:16:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Adding scripts/a_Add Profile Input Field' is clicked on
+
+2020-10-03 11:16:09 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Plugin Page/Adding scripts/input_Custom Field Name_custom_name"), "New Textfield"): Text 'New Textfield' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Custom Field Name_custom_name'
+
+2020-10-03 11:16:10 - [MESSAGE][PASSED] - Text 'New Textfield' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Custom Field Name_custom_name'
+
+2020-10-03 11:16:10 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Adding scripts/input_Add Option_saveCustomDetails")): Object: 'Object Repository/Admin/Plugin Page/Adding scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-03 11:16:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Adding scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-03 11:16:10 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Adding scripts/a_Add Profile Input Field")): Object: 'Object Repository/Admin/Plugin Page/Adding scripts/a_Add Profile Input Field' is clicked on
+
+2020-10-03 11:16:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Adding scripts/a_Add Profile Input Field' is clicked on
+
+2020-10-03 11:16:12 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Plugin Page/Adding scripts/input_Custom Field Name_custom_name"), "New Number"): Text 'New Number' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Custom Field Name_custom_name'
+
+2020-10-03 11:16:13 - [MESSAGE][PASSED] - Text 'New Number' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Custom Field Name_custom_name'
+
+2020-10-03 11:16:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin/Plugin Page/Adding scripts/select_Text                                _e22ab6"), "number", true): All options with value 'number' are selected in object 'Object Repository/Admin/Plugin Page/Adding scripts/select_Text                                _e22ab6'  using regular expression
+
+2020-10-03 11:16:14 - [MESSAGE][PASSED] - All options with value 'number' are selected in object 'Object Repository/Admin/Plugin Page/Adding scripts/select_Text                                _e22ab6'  using regular expression
+
+2020-10-03 11:16:14 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Adding scripts/input_Add Option_saveCustomDetails")): Object: 'Object Repository/Admin/Plugin Page/Adding scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-03 11:16:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Adding scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-03 11:16:14 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Adding scripts/a_Add Profile Input Field")): Object: 'Object Repository/Admin/Plugin Page/Adding scripts/a_Add Profile Input Field' is clicked on
+
+2020-10-03 11:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Adding scripts/a_Add Profile Input Field' is clicked on
+
+2020-10-03 11:16:15 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Plugin Page/Adding scripts/input_Custom Field Name_custom_name"), "New Dropdown"): Text 'New Dropdown' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Custom Field Name_custom_name'
+
+2020-10-03 11:16:16 - [MESSAGE][PASSED] - Text 'New Dropdown' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Custom Field Name_custom_name'
+
+2020-10-03 11:16:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin/Plugin Page/Adding scripts/select_Text                                _e22ab6"), "dropdown", true): All options with value 'dropdown' are selected in object 'Object Repository/Admin/Plugin Page/Adding scripts/select_Text                                _e22ab6'  using regular expression
+
+2020-10-03 11:16:17 - [MESSAGE][PASSED] - All options with value 'dropdown' are selected in object 'Object Repository/Admin/Plugin Page/Adding scripts/select_Text                                _e22ab6'  using regular expression
+
+2020-10-03 11:16:17 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Plugin Page/Adding scripts/input_Options_checkbox-opt"), "Option 1"): Text 'Option 1' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Options_checkbox-opt'
+
+2020-10-03 11:16:18 - [MESSAGE][PASSED] - Text 'Option 1' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Options_checkbox-opt'
+
+2020-10-03 11:16:18 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Adding scripts/input_Add Option_saveCustomDetails")): Object: 'Object Repository/Admin/Plugin Page/Adding scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-03 11:16:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Adding scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-03 11:16:18 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Adding scripts/a_Add Profile Input Field")): Object: 'Object Repository/Admin/Plugin Page/Adding scripts/a_Add Profile Input Field' is clicked on
+
+2020-10-03 11:16:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Adding scripts/a_Add Profile Input Field' is clicked on
+
+2020-10-03 11:16:20 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Plugin Page/Adding scripts/input_Custom Field Name_custom_name"), "New Check box"): Text 'New Check box' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Custom Field Name_custom_name'
+
+2020-10-03 11:16:21 - [MESSAGE][PASSED] - Text 'New Check box' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Custom Field Name_custom_name'
+
+2020-10-03 11:16:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin/Plugin Page/Adding scripts/select_Text                                _e22ab6"), "checkbox", true): All options with value 'checkbox' are selected in object 'Object Repository/Admin/Plugin Page/Adding scripts/select_Text                                _e22ab6'  using regular expression
+
+2020-10-03 11:16:22 - [MESSAGE][PASSED] - All options with value 'checkbox' are selected in object 'Object Repository/Admin/Plugin Page/Adding scripts/select_Text                                _e22ab6'  using regular expression
+
+2020-10-03 11:16:22 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Plugin Page/Adding scripts/input_Options_checkbox-opt"), "Option 1"): Text 'Option 1' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Options_checkbox-opt'
+
+2020-10-03 11:16:22 - [MESSAGE][PASSED] - Text 'Option 1' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Options_checkbox-opt'
+
+2020-10-03 11:16:22 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Adding scripts/input_Add Option_saveCustomDetails")): Object: 'Object Repository/Admin/Plugin Page/Adding scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-03 11:16:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Adding scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-03 11:16:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-03 11:16:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Edit Custom Fields" time="24.547" classname="Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Edit Custom Fields" status="PASSED">
+         <system-out><![CDATA[2020-10-03 11:16:23 - [TEST_CASE][PASSED] - Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Edit Custom Fields: Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Edit Custom Fields
+
+2020-10-03 11:16:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-03 11:16:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-03 11:16:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-03 11:16:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-03 11:16:27 - [TEST_STEP][PASSED] - navigateToUrl("https://youhadmeathello.sandbox.arcadier.io/admin"): Navigate to 'https://youhadmeathello.sandbox.arcadier.io/admin' successfully
+
+2020-10-03 11:16:29 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathello.sandbox.arcadier.io/admin' successfully
+
+2020-10-03 11:16:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/input_Your Email  Username_username"), "natasha@arcadier.com"): Text 'natasha@arcadier.com' is set on object 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Your Email  Username_username'
+
+2020-10-03 11:16:30 - [MESSAGE][PASSED] - Text 'natasha@arcadier.com' is set on object 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Your Email  Username_username'
+
+2020-10-03 11:16:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/input_Your Password_password"), "I7a4UsMF9MiFJG0HdBZ4hg=="): Text ****** has been set on object 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Your Password_password'
+
+2020-10-03 11:16:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Your Password_password'
+
+2020-10-03 11:16:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/input_Your Password_login-submit")): Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Your Password_login-submit' is clicked on
+
+2020-10-03 11:16:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Your Password_login-submit' is clicked on
+
+2020-10-03 11:16:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/span_Plug-ins")): Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/span_Plug-ins' is clicked on
+
+2020-10-03 11:16:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/span_Plug-ins' is clicked on
+
+2020-10-03 11:16:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/a_Profile Input Field")): Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/a_Profile Input Field' is clicked on
+
+2020-10-03 11:16:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/a_Profile Input Field' is clicked on
+
+2020-10-03 11:16:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/i_Textfield_icon icon-edit")): Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/i_Textfield_icon icon-edit' is clicked on
+
+2020-10-03 11:16:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/i_Textfield_icon icon-edit' is clicked on
+
+2020-10-03 11:16:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/input_Custom Field Name_custom_name"), "New Textfield Edited"): Text 'New Textfield Edited' is set on object 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Custom Field Name_custom_name'
+
+2020-10-03 11:16:37 - [MESSAGE][PASSED] - Text 'New Textfield Edited' is set on object 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Custom Field Name_custom_name'
+
+2020-10-03 11:16:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/input_Add Option_saveCustomDetails")): Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-03 11:16:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-03 11:16:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/i_Number_icon icon-edit")): Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/i_Number_icon icon-edit' is clicked on
+
+2020-10-03 11:16:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/i_Number_icon icon-edit' is clicked on
+
+2020-10-03 11:16:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/input_Custom Field Name_custom_name"), "New Number Edited"): Text 'New Number Edited' is set on object 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Custom Field Name_custom_name'
+
+2020-10-03 11:16:41 - [MESSAGE][PASSED] - Text 'New Number Edited' is set on object 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Custom Field Name_custom_name'
+
+2020-10-03 11:16:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/input_Add Option_saveCustomDetails")): Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-03 11:16:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-03 11:16:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/i_Dropdown_icon icon-edit")): Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/i_Dropdown_icon icon-edit' is clicked on
+
+2020-10-03 11:16:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/i_Dropdown_icon icon-edit' is clicked on
+
+2020-10-03 11:16:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/input_Custom Field Name_custom_name"), "New Dropdown Edited"): Text 'New Dropdown Edited' is set on object 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Custom Field Name_custom_name'
+
+2020-10-03 11:16:44 - [MESSAGE][PASSED] - Text 'New Dropdown Edited' is set on object 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Custom Field Name_custom_name'
+
+2020-10-03 11:16:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/input_Add Option_saveCustomDetails")): Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-03 11:16:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-03 11:16:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/i_Checkbox_icon icon-edit")): Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/i_Checkbox_icon icon-edit' is clicked on
+
+2020-10-03 11:16:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/i_Checkbox_icon icon-edit' is clicked on
+
+2020-10-03 11:16:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/input_Custom Field Name_custom_name"), "New Check box Edited"): Text 'New Check box Edited' is set on object 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Custom Field Name_custom_name'
+
+2020-10-03 11:16:47 - [MESSAGE][PASSED] - Text 'New Check box Edited' is set on object 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Custom Field Name_custom_name'
+
+2020-10-03 11:16:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/input_Add Option_saveCustomDetails")): Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-03 11:16:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-03 11:16:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-03 11:16:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Deleting Custom Fields" time="17.252" classname="Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Deleting Custom Fields" status="PASSED">
+         <system-out><![CDATA[2020-10-03 11:16:48 - [TEST_CASE][PASSED] - Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Deleting Custom Fields: Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Deleting Custom Fields
+
+2020-10-03 11:16:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-03 11:16:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-03 11:16:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-03 11:16:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-03 11:16:51 - [TEST_STEP][PASSED] - navigateToUrl("https://youhadmeathello.sandbox.arcadier.io/admin"): Navigate to 'https://youhadmeathello.sandbox.arcadier.io/admin' successfully
+
+2020-10-03 11:16:53 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathello.sandbox.arcadier.io/admin' successfully
+
+2020-10-03 11:16:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Plugin Page/Deleting Custom Fields/input_Your Email  Username_username"), "natasha@arcadier.com"): Text 'natasha@arcadier.com' is set on object 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/input_Your Email  Username_username'
+
+2020-10-03 11:16:54 - [MESSAGE][PASSED] - Text 'natasha@arcadier.com' is set on object 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/input_Your Email  Username_username'
+
+2020-10-03 11:16:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Plugin Page/Deleting Custom Fields/input_Your Password_password"), "I7a4UsMF9MiFJG0HdBZ4hg=="): Text ****** has been set on object 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/input_Your Password_password'
+
+2020-10-03 11:16:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/input_Your Password_password'
+
+2020-10-03 11:16:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Deleting Custom Fields/input_Your Password_login-submit")): Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/input_Your Password_login-submit' is clicked on
+
+2020-10-03 11:16:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/input_Your Password_login-submit' is clicked on
+
+2020-10-03 11:16:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Deleting Custom Fields/a_Profile Input Field")): Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/a_Profile Input Field' is clicked on
+
+2020-10-03 11:16:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/a_Profile Input Field' is clicked on
+
+2020-10-03 11:16:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete")): Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' is clicked on
+
+2020-10-03 11:16:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' is clicked on
+
+2020-10-03 11:16:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete")): Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' is clicked on
+
+2020-10-03 11:17:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' is clicked on
+
+2020-10-03 11:17:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete")): Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' is clicked on
+
+2020-10-03 11:17:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' is clicked on
+
+2020-10-03 11:17:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Checkbox_icon icon-delete")): Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Checkbox_icon icon-delete' is clicked on
+
+2020-10-03 11:17:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Checkbox_icon icon-delete' is clicked on
+
+2020-10-03 11:17:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-03 11:17:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-03 11:15:52 - [TEST_SUITE][PASSED] - Admin Custom Field Maintenance: Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Deleting Custom Fields]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the edited custom field value is correct</description>
+   <name>TC_CMPLX_016</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>92a05aee-21fc-486a-9cf7-af5e033c4d2d</testCaseGuid>
+</TestCaseEntity>

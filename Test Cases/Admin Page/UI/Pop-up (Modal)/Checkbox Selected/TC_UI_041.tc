@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if input box is displayed</description>
+   <name>TC_UI_041</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>001cc62d-84f7-4de1-b499-4c2788673fca</testCaseGuid>
+</TestCaseEntity>

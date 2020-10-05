@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if Type dropdown value is default to 'text'</description>
+   <name>TC_UI_037</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>46bc0dab-b188-42f5-97f9-a2ddbc462828</testCaseGuid>
+</TestCaseEntity>

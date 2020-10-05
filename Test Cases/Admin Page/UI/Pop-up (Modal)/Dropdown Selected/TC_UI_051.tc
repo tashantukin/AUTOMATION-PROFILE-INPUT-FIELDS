@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if 'remove (x)' button is displayed beside input box</description>
+   <name>TC_UI_051</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b4b44cc5-e295-46ea-8487-0ec00f940474</testCaseGuid>
+</TestCaseEntity>

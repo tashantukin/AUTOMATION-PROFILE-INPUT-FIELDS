@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if Option section is visible if 'Dropdown' is selected</description>
+   <name>TC_SIMPLE_008</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be26a9ba-7679-4ffd-a38e-8c05504820f4</testCaseGuid>
+</TestCaseEntity>

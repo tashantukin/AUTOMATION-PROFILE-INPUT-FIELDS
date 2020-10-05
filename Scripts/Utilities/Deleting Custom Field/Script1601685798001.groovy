@@ -23,5 +23,7 @@ WebUI.callTestCase(findTestCase('Utilities/Navigate to Plugin'), [:], FailureHan
 
 WebUI.click(findTestObject('Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete'))
 
+WebUI.click(findTestObject('Admin/Plugin Page/Deleting Custom Fields/del_confirm'))
+
 WebUI.closeBrowser()
 

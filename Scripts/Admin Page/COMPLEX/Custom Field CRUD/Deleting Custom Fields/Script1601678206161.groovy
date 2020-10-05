@@ -33,11 +33,19 @@ WebUI.click(findTestObject('Object Repository/Admin/Plugin Page/Deleting Custom 
 
 WebUI.click(findTestObject('Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete'))
 
-WebUI.click(findTestObject('Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete'))
+WebUI.click(findTestObject('Admin/Plugin Page/Deleting Custom Fields/del_confirm'))
 
 WebUI.click(findTestObject('Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete'))
+
+WebUI.click(findTestObject('Admin/Plugin Page/Deleting Custom Fields/del_confirm'))
+
+WebUI.click(findTestObject('Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete'))
+
+WebUI.click(findTestObject('Admin/Plugin Page/Deleting Custom Fields/del_confirm'))
 
 WebUI.click(findTestObject('Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Checkbox_icon icon-delete'))
+
+WebUI.click(findTestObject('Admin/Plugin Page/Deleting Custom Fields/del_confirm'))
 
 WebUI.closeBrowser()
 

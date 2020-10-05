@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin Custom Field Maintenance" time="70.993" tests="3" failures="1" errors="0">
+   <testsuite name="Admin Custom Field Maintenance" tests="3" failures="1" errors="0" time="70.993" timestamp="2020-10-05 11:32:45" hostname="Natasha - 192.168.254.105" id="Test Suites/Admin Plugin Page/Admin Custom Field Maintenance">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\GITHUB\\AUTOMATION-PROFILE-INPUT-FIELDS\\Reports\\20201005_113241\\Admin Plugin Page\\Admin Custom Field Maintenance\\20201005_113241"/>
+         <property name="logFiles" value="D:\\GITHUB\\AUTOMATION-PROFILE-INPUT-FIELDS\\Reports\\20201005_113241\\Admin Plugin Page\\Admin Custom Field Maintenance\\20201005_113241\\execution0.log"/>
+         <property name="attachments" value="D:\\GITHUB\\AUTOMATION-PROFILE-INPUT-FIELDS\\Reports\\20201005_113241\\Admin Plugin Page\\Admin Custom Field Maintenance\\20201005_113241\\1601868835000.png"/>
+         <property name="hostName" value="Natasha - 192.168.254.105"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.121"/>
+         <property name="hostAddress" value="192.168.254.105"/>
+         <property name="sessionId" value="21384c962cf05bd4221988bc041e9bd8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Adding Custom Fields" time="31.293" classname="Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Adding Custom Fields" status="PASSED">
+         <system-out><![CDATA[2020-10-05 11:32:45 - [TEST_CASE][PASSED] - Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Adding Custom Fields: Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Adding Custom Fields
+
+2020-10-05 11:32:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-05 11:32:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-05 11:32:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-05 11:32:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-05 11:32:51 - [TEST_STEP][PASSED] - navigateToUrl("https://youhadmeathello.sandbox.arcadier.io/admin"): Navigate to 'https://youhadmeathello.sandbox.arcadier.io/admin' successfully
+
+2020-10-05 11:32:53 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathello.sandbox.arcadier.io/admin' successfully
+
+2020-10-05 11:32:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-10-05 11:32:55 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-05 11:32:55 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2020-10-05 11:32:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-05 11:32:55 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Plugin Page/Adding scripts/input_Your Email  Username_username"), "natasha@arcadier.com"): Text 'natasha@arcadier.com' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Your Email  Username_username'
+
+2020-10-05 11:32:56 - [MESSAGE][PASSED] - Text 'natasha@arcadier.com' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Your Email  Username_username'
+
+2020-10-05 11:32:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Admin/Plugin Page/Adding scripts/input_Your Password_password"), "I7a4UsMF9MiFJG0HdBZ4hg=="): Text ****** has been set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Your Password_password'
+
+2020-10-05 11:32:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Your Password_password'
+
+2020-10-05 11:32:56 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Adding scripts/input_Your Password_login-submit")): Object: 'Object Repository/Admin/Plugin Page/Adding scripts/input_Your Password_login-submit' is clicked on
+
+2020-10-05 11:32:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Adding scripts/input_Your Password_login-submit' is clicked on
+
+2020-10-05 11:32:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Adding scripts/span_Plug-ins")): Object: 'Object Repository/Admin/Plugin Page/Adding scripts/span_Plug-ins' is clicked on
+
+2020-10-05 11:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Adding scripts/span_Plug-ins' is clicked on
+
+2020-10-05 11:32:59 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Adding scripts/a_Profile Input Field")): Object: 'Object Repository/Admin/Plugin Page/Adding scripts/a_Profile Input Field' is clicked on
+
+2020-10-05 11:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Adding scripts/a_Profile Input Field' is clicked on
+
+2020-10-05 11:33:01 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Adding scripts/a_Add Profile Input Field")): Object: 'Object Repository/Admin/Plugin Page/Adding scripts/a_Add Profile Input Field' is clicked on
+
+2020-10-05 11:33:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Adding scripts/a_Add Profile Input Field' is clicked on
+
+2020-10-05 11:33:02 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Plugin Page/Adding scripts/input_Custom Field Name_custom_name"), "New Textfield"): Text 'New Textfield' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Custom Field Name_custom_name'
+
+2020-10-05 11:33:03 - [MESSAGE][PASSED] - Text 'New Textfield' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Custom Field Name_custom_name'
+
+2020-10-05 11:33:03 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Adding scripts/input_Add Option_saveCustomDetails")): Object: 'Object Repository/Admin/Plugin Page/Adding scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-05 11:33:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Adding scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-05 11:33:03 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Adding scripts/a_Add Profile Input Field")): Object: 'Object Repository/Admin/Plugin Page/Adding scripts/a_Add Profile Input Field' is clicked on
+
+2020-10-05 11:33:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Adding scripts/a_Add Profile Input Field' is clicked on
+
+2020-10-05 11:33:04 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Plugin Page/Adding scripts/input_Custom Field Name_custom_name"), "New Number"): Text 'New Number' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Custom Field Name_custom_name'
+
+2020-10-05 11:33:05 - [MESSAGE][PASSED] - Text 'New Number' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Custom Field Name_custom_name'
+
+2020-10-05 11:33:05 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin/Plugin Page/Adding scripts/select_Text                                _e22ab6"), "number", true): All options with value 'number' are selected in object 'Object Repository/Admin/Plugin Page/Adding scripts/select_Text                                _e22ab6'  using regular expression
+
+2020-10-05 11:33:06 - [MESSAGE][PASSED] - All options with value 'number' are selected in object 'Object Repository/Admin/Plugin Page/Adding scripts/select_Text                                _e22ab6'  using regular expression
+
+2020-10-05 11:33:06 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Adding scripts/input_Add Option_saveCustomDetails")): Object: 'Object Repository/Admin/Plugin Page/Adding scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-05 11:33:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Adding scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-05 11:33:07 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Adding scripts/a_Add Profile Input Field")): Object: 'Object Repository/Admin/Plugin Page/Adding scripts/a_Add Profile Input Field' is clicked on
+
+2020-10-05 11:33:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Adding scripts/a_Add Profile Input Field' is clicked on
+
+2020-10-05 11:33:08 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Plugin Page/Adding scripts/input_Custom Field Name_custom_name"), "New Dropdown"): Text 'New Dropdown' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Custom Field Name_custom_name'
+
+2020-10-05 11:33:09 - [MESSAGE][PASSED] - Text 'New Dropdown' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Custom Field Name_custom_name'
+
+2020-10-05 11:33:09 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin/Plugin Page/Adding scripts/select_Text                                _e22ab6"), "dropdown", true): All options with value 'dropdown' are selected in object 'Object Repository/Admin/Plugin Page/Adding scripts/select_Text                                _e22ab6'  using regular expression
+
+2020-10-05 11:33:10 - [MESSAGE][PASSED] - All options with value 'dropdown' are selected in object 'Object Repository/Admin/Plugin Page/Adding scripts/select_Text                                _e22ab6'  using regular expression
+
+2020-10-05 11:33:10 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Plugin Page/Adding scripts/input_Options_checkbox-opt"), "Option 1"): Text 'Option 1' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Options_checkbox-opt'
+
+2020-10-05 11:33:11 - [MESSAGE][PASSED] - Text 'Option 1' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Options_checkbox-opt'
+
+2020-10-05 11:33:11 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Adding scripts/input_Add Option_saveCustomDetails")): Object: 'Object Repository/Admin/Plugin Page/Adding scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-05 11:33:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Adding scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-05 11:33:11 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Adding scripts/a_Add Profile Input Field")): Object: 'Object Repository/Admin/Plugin Page/Adding scripts/a_Add Profile Input Field' is clicked on
+
+2020-10-05 11:33:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Adding scripts/a_Add Profile Input Field' is clicked on
+
+2020-10-05 11:33:13 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Plugin Page/Adding scripts/input_Custom Field Name_custom_name"), "New Check box"): Text 'New Check box' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Custom Field Name_custom_name'
+
+2020-10-05 11:33:14 - [MESSAGE][PASSED] - Text 'New Check box' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Custom Field Name_custom_name'
+
+2020-10-05 11:33:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin/Plugin Page/Adding scripts/select_Text                                _e22ab6"), "checkbox", true): All options with value 'checkbox' are selected in object 'Object Repository/Admin/Plugin Page/Adding scripts/select_Text                                _e22ab6'  using regular expression
+
+2020-10-05 11:33:15 - [MESSAGE][PASSED] - All options with value 'checkbox' are selected in object 'Object Repository/Admin/Plugin Page/Adding scripts/select_Text                                _e22ab6'  using regular expression
+
+2020-10-05 11:33:15 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Plugin Page/Adding scripts/input_Options_checkbox-opt"), "Option 1"): Text 'Option 1' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Options_checkbox-opt'
+
+2020-10-05 11:33:15 - [MESSAGE][PASSED] - Text 'Option 1' is set on object 'Object Repository/Admin/Plugin Page/Adding scripts/input_Options_checkbox-opt'
+
+2020-10-05 11:33:15 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Adding scripts/input_Add Option_saveCustomDetails")): Object: 'Object Repository/Admin/Plugin Page/Adding scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-05 11:33:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Adding scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-05 11:33:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-05 11:33:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Edit Custom Fields" time="23.374" classname="Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Edit Custom Fields" status="PASSED">
+         <system-out><![CDATA[2020-10-05 11:33:16 - [TEST_CASE][PASSED] - Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Edit Custom Fields: Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Edit Custom Fields
+
+2020-10-05 11:33:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-05 11:33:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-05 11:33:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-05 11:33:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-05 11:33:20 - [TEST_STEP][PASSED] - navigateToUrl("https://youhadmeathello.sandbox.arcadier.io/admin"): Navigate to 'https://youhadmeathello.sandbox.arcadier.io/admin' successfully
+
+2020-10-05 11:33:22 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathello.sandbox.arcadier.io/admin' successfully
+
+2020-10-05 11:33:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/input_Your Email  Username_username"), "natasha@arcadier.com"): Text 'natasha@arcadier.com' is set on object 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Your Email  Username_username'
+
+2020-10-05 11:33:23 - [MESSAGE][PASSED] - Text 'natasha@arcadier.com' is set on object 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Your Email  Username_username'
+
+2020-10-05 11:33:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/input_Your Password_password"), "I7a4UsMF9MiFJG0HdBZ4hg=="): Text ****** has been set on object 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Your Password_password'
+
+2020-10-05 11:33:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Your Password_password'
+
+2020-10-05 11:33:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/input_Your Password_login-submit")): Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Your Password_login-submit' is clicked on
+
+2020-10-05 11:33:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Your Password_login-submit' is clicked on
+
+2020-10-05 11:33:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/span_Plug-ins")): Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/span_Plug-ins' is clicked on
+
+2020-10-05 11:33:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/span_Plug-ins' is clicked on
+
+2020-10-05 11:33:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/a_Profile Input Field")): Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/a_Profile Input Field' is clicked on
+
+2020-10-05 11:33:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/a_Profile Input Field' is clicked on
+
+2020-10-05 11:33:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/i_Textfield_icon icon-edit")): Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/i_Textfield_icon icon-edit' is clicked on
+
+2020-10-05 11:33:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/i_Textfield_icon icon-edit' is clicked on
+
+2020-10-05 11:33:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/input_Custom Field Name_custom_name"), "New Textfield Edited"): Text 'New Textfield Edited' is set on object 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Custom Field Name_custom_name'
+
+2020-10-05 11:33:29 - [MESSAGE][PASSED] - Text 'New Textfield Edited' is set on object 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Custom Field Name_custom_name'
+
+2020-10-05 11:33:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/input_Add Option_saveCustomDetails")): Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-05 11:33:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-05 11:33:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/i_Number_icon icon-edit")): Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/i_Number_icon icon-edit' is clicked on
+
+2020-10-05 11:33:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/i_Number_icon icon-edit' is clicked on
+
+2020-10-05 11:33:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/input_Custom Field Name_custom_name"), "New Number Edited"): Text 'New Number Edited' is set on object 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Custom Field Name_custom_name'
+
+2020-10-05 11:33:32 - [MESSAGE][PASSED] - Text 'New Number Edited' is set on object 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Custom Field Name_custom_name'
+
+2020-10-05 11:33:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/input_Add Option_saveCustomDetails")): Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-05 11:33:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-05 11:33:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/i_Dropdown_icon icon-edit")): Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/i_Dropdown_icon icon-edit' is clicked on
+
+2020-10-05 11:33:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/i_Dropdown_icon icon-edit' is clicked on
+
+2020-10-05 11:33:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/input_Custom Field Name_custom_name"), "New Dropdown Edited"): Text 'New Dropdown Edited' is set on object 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Custom Field Name_custom_name'
+
+2020-10-05 11:33:36 - [MESSAGE][PASSED] - Text 'New Dropdown Edited' is set on object 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Custom Field Name_custom_name'
+
+2020-10-05 11:33:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/input_Add Option_saveCustomDetails")): Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-05 11:33:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-05 11:33:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/i_Checkbox_icon icon-edit")): Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/i_Checkbox_icon icon-edit' is clicked on
+
+2020-10-05 11:33:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/i_Checkbox_icon icon-edit' is clicked on
+
+2020-10-05 11:33:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/input_Custom Field Name_custom_name"), "New Check box Edited"): Text 'New Check box Edited' is set on object 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Custom Field Name_custom_name'
+
+2020-10-05 11:33:39 - [MESSAGE][PASSED] - Text 'New Check box Edited' is set on object 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Custom Field Name_custom_name'
+
+2020-10-05 11:33:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Editing Scripts/input_Add Option_saveCustomDetails")): Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-05 11:33:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Editing Scripts/input_Add Option_saveCustomDetails' is clicked on
+
+2020-10-05 11:33:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-05 11:33:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Deleting Custom Fields" time="15.053" classname="Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Deleting Custom Fields" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Deleting Custom Fields FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Deleting Custom Fields.run(Deleting Custom Fields:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601868761984.run(TempTestSuite1601868761984.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;i class=&quot;icon icon-delete&quot;>&lt;/i> is not clickable at point (765, 514). Other element would receive the click: &lt;div id=&quot;cover&quot; style=&quot;display: block;&quot;>&lt;/div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NATASHA-PC', ip: '192.168.254.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Natasha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62869}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 21384c962cf05bd4221988bc041e9bd8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-10-05 11:33:40 - [TEST_CASE][FAILED] - Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Deleting Custom Fields: Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Deleting Custom Fields FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Deleting Custom Fields.run(Deleting Custom Fields:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601868761984.run(TempTestSuite1601868761984.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <i class="icon icon-delete"></i> is not clickable at point (765, 514). Other element would receive the click: <div id="cover" style="display: block;"></div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NATASHA-PC', ip: '192.168.254.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Natasha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62869}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 21384c962cf05bd4221988bc041e9bd8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-10-05 11:33:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-05 11:33:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-05 11:33:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-05 11:33:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-05 11:33:43 - [TEST_STEP][PASSED] - navigateToUrl("https://youhadmeathello.sandbox.arcadier.io/admin"): Navigate to 'https://youhadmeathello.sandbox.arcadier.io/admin' successfully
+
+2020-10-05 11:33:44 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathello.sandbox.arcadier.io/admin' successfully
+
+2020-10-05 11:33:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Plugin Page/Deleting Custom Fields/input_Your Email  Username_username"), "natasha@arcadier.com"): Text 'natasha@arcadier.com' is set on object 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/input_Your Email  Username_username'
+
+2020-10-05 11:33:45 - [MESSAGE][PASSED] - Text 'natasha@arcadier.com' is set on object 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/input_Your Email  Username_username'
+
+2020-10-05 11:33:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Plugin Page/Deleting Custom Fields/input_Your Password_password"), "I7a4UsMF9MiFJG0HdBZ4hg=="): Text ****** has been set on object 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/input_Your Password_password'
+
+2020-10-05 11:33:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/input_Your Password_password'
+
+2020-10-05 11:33:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Deleting Custom Fields/input_Your Password_login-submit")): Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/input_Your Password_login-submit' is clicked on
+
+2020-10-05 11:33:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/input_Your Password_login-submit' is clicked on
+
+2020-10-05 11:33:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Deleting Custom Fields/a_Profile Input Field")): Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/a_Profile Input Field' is clicked on
+
+2020-10-05 11:33:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/a_Profile Input Field' is clicked on
+
+2020-10-05 11:33:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete")): Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' is clicked on
+
+2020-10-05 11:33:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' is clicked on
+
+2020-10-05 11:33:53 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete")): Unable to click on object 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Deleting Custom Fields.run(Deleting Custom Fields:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601868761984.run(TempTestSuite1601868761984.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <i class="icon icon-delete"></i> is not clickable at point (765, 514). Other element would receive the click: <div id="cover" style="display: block;"></div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NATASHA-PC', ip: '192.168.254.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Natasha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62869}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 21384c962cf05bd4221988bc041e9bd8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Script1601678206161.run(Script1601678206161.groovy:36)
+	... 13 more
+)
+
+2020-10-05 11:33:55 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Deleting Custom Fields.run(Deleting Custom Fields:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601868761984.run(TempTestSuite1601868761984.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <i class="icon icon-delete"></i> is not clickable at point (765, 514). Other element would receive the click: <div id="cover" style="display: block;"></div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NATASHA-PC', ip: '192.168.254.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Natasha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62869}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 21384c962cf05bd4221988bc041e9bd8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Script1601678206161.run(Script1601678206161.groovy:36)
+	... 13 more
+)
+[[ATTACHMENT|D:\\GITHUB\\AUTOMATION-PROFILE-INPUT-FIELDS\\Reports\\20201005_113241\\Admin Plugin Page\\Admin Custom Field Maintenance\\20201005_113241\\1601868835000.png]]]]></system-out>
+         <system-err><![CDATA[2020-10-05 11:33:40 - [TEST_CASE][FAILED] - Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Deleting Custom Fields: Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Deleting Custom Fields FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Deleting Custom Fields.run(Deleting Custom Fields:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601868761984.run(TempTestSuite1601868761984.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <i class="icon icon-delete"></i> is not clickable at point (765, 514). Other element would receive the click: <div id="cover" style="display: block;"></div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NATASHA-PC', ip: '192.168.254.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Natasha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62869}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 21384c962cf05bd4221988bc041e9bd8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-05 11:32:45 - [TEST_SUITE][FAILED] - Admin Custom Field Maintenance: Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Deleting Custom Fields FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Deleting Custom Fields.run(Deleting Custom Fields:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601868761984.run(TempTestSuite1601868761984.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <i class="icon icon-delete"></i> is not clickable at point (765, 514). Other element would receive the click: <div id="cover" style="display: block;"></div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NATASHA-PC', ip: '192.168.254.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Natasha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62869}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 21384c962cf05bd4221988bc041e9bd8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-10-05 11:32:45 - [TEST_SUITE][FAILED] - Admin Custom Field Maintenance: Test Cases/Admin Page/COMPLEX/Custom Field CRUD/Deleting Custom Fields FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Deleting Custom Fields.run(Deleting Custom Fields:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601868761984.run(TempTestSuite1601868761984.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <i class="icon icon-delete"></i> is not clickable at point (765, 514). Other element would receive the click: <div id="cover" style="display: block;"></div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NATASHA-PC', ip: '192.168.254.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Natasha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62869}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 21384c962cf05bd4221988bc041e9bd8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

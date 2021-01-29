@@ -6,12 +6,12 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://youhadmeathello.sandbox.arcadier.io/admin'</initValue>
+      <initValue>'https://youhadmeathelloworld.staging.arcadier.io/admin'</initValue>
       <name>admin_url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'natasha@arcadier.com'</initValue>
+      <initValue>'codemafia'</initValue>
       <name>admin_username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

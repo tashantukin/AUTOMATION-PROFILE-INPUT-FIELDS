@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Header" time="23.85" tests="9" failures="1" errors="0">
+   <testsuite name="Header" tests="9" failures="1" errors="0" time="23.85" timestamp="2021-01-26 17:27:41" hostname="Natasha - 192.168.254.100" id="Test Suites/Admin Plugin Page/Header">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\GITHUB\\AUTOMATION-PROFILE-INPUT-FIELDS\\Reports\\20210126_172738\\Admin Plugin Page\\Header\\20210126_172738"/>
+         <property name="logFiles" value="D:\\GITHUB\\AUTOMATION-PROFILE-INPUT-FIELDS\\Reports\\20210126_172738\\Admin Plugin Page\\Header\\20210126_172738\\execution0.log"/>
+         <property name="attachments" value="D:\\GITHUB\\AUTOMATION-PROFILE-INPUT-FIELDS\\Reports\\20210126_172738\\Admin Plugin Page\\Header\\20210126_172738\\1611653281461.png, D:\\GITHUB\\AUTOMATION-PROFILE-INPUT-FIELDS\\Reports\\20210126_172738\\Admin Plugin Page\\Header\\20210126_172738\\1611653281856.png"/>
+         <property name="hostName" value="Natasha - 192.168.254.100"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 87.0.4280.141"/>
+         <property name="hostAddress" value="192.168.254.100"/>
+         <property name="sessionId" value="66b97ff87945a8fd93fef6b792c9c408"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Utilities/Admin Login" time="16.445" classname="Test Cases/Utilities/Admin Login" status="PASSED">
+         <system-out><![CDATA[2021-01-26 17:27:41 - [TEST_CASE][PASSED] - Test Cases/Utilities/Admin Login: Test Cases/Utilities/Admin Login
+
+2021-01-26 17:27:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-01-26 17:27:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-26 17:27:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-26 17:27:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-26 17:27:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-01-26 17:27:48 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-26 17:27:48 - [TEST_STEP][PASSED] - navigateToUrl(admin_url): Navigate to 'https://youhadmeathelloworld.staging.arcadier.io/admin' successfully
+
+2021-01-26 17:27:51 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.staging.arcadier.io/admin' successfully
+
+2021-01-26 17:27:51 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-01-26 17:27:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-26 17:27:51 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_username"), admin_username): Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-01-26 17:27:51 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-01-26 17:27:51 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_password"), admin_password): Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-01-26 17:27:52 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-01-26 17:27:52 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Login/button_login")): Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-01-26 17:27:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Utilities/Navigate to Plugin" time="2.373" classname="Test Cases/Utilities/Navigate to Plugin" status="PASSED">
+         <system-out><![CDATA[2021-01-26 17:27:57 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Plugin: Test Cases/Utilities/Navigate to Plugin
+
+2021-01-26 17:27:57 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_plugin")): Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-01-26 17:27:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-01-26 17:27:58 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_profile")): Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-01-26 17:28:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Plugin Header/TC_UI_001" time="0.452" classname="Test Cases/Admin Page/UI/Plugin Header/TC_UI_001" status="PASSED">
+         <system-out><![CDATA[2021-01-26 17:28:00 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Plugin Header/TC_UI_001: Test Cases/Admin Page/UI/Plugin Header/TC_UI_001
+
+2021-01-26 17:28:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin/Plugin Page/Header/header_icon"), 0): Object 'Object Repository/Admin/Plugin Page/Header/header_icon' is present
+
+2021-01-26 17:28:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-26 17:28:00 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Header/header_icon' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Plugin Header/TC_UI_002" time="0.415" classname="Test Cases/Admin Page/UI/Plugin Header/TC_UI_002" status="PASSED">
+         <system-out><![CDATA[2021-01-26 17:28:00 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Plugin Header/TC_UI_002: Test Cases/Admin Page/UI/Plugin Header/TC_UI_002
+
+2021-01-26 17:28:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin/Plugin Page/Header/header_label"), 0): Object 'Object Repository/Admin/Plugin Page/Header/header_label' is present
+
+2021-01-26 17:28:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-26 17:28:00 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Header/header_label' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Plugin Header/TC_UI_003" time="1.2" classname="Test Cases/Admin Page/UI/Plugin Header/TC_UI_003" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Admin Page/UI/Plugin Header/TC_UI_003 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Admin/Plugin Page/Header/header_label' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_UI_003.run(TC_UI_003:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611653258103.run(TempTestSuite1611653258103.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Profile Input Fields v2' and expected text 'Profile Input Field' of test object 'Object Repository/Admin/Plugin Page/Header/header_label' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-01-26 17:28:00 - [TEST_CASE][FAILED] - Test Cases/Admin Page/UI/Plugin Header/TC_UI_003: Test Cases/Admin Page/UI/Plugin Header/TC_UI_003 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Admin/Plugin Page/Header/header_label' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_UI_003.run(TC_UI_003:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611653258103.run(TempTestSuite1611653258103.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Profile Input Fields v2' and expected text 'Profile Input Field' of test object 'Object Repository/Admin/Plugin Page/Header/header_label' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-01-26 17:28:01 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Admin/Plugin Page/Header/header_label"), "Profile Input Field"): Verify element text of test object 'Object Repository/Admin/Plugin Page/Header/header_label' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Admin/Plugin Page/Header/header_label' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_UI_003.run(TC_UI_003:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611653258103.run(TempTestSuite1611653258103.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Profile Input Fields v2' and expected text 'Profile Input Field' of test object 'Object Repository/Admin/Plugin Page/Header/header_label' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-01-26 17:28:01 - [MESSAGE][FAILED] - Actual text 'Profile Input Fields v2' and expected text 'Profile Input Field' of test object 'Object Repository/Admin/Plugin Page/Header/header_label' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Profile Input Fields v2' and expected text 'Profile Input Field' of test object 'Object Repository/Admin/Plugin Page/Header/header_label' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_UI_003.run(TC_UI_003:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611653258103.run(TempTestSuite1611653258103.groovy:39)
+)
+[[ATTACHMENT|D:\\GITHUB\\AUTOMATION-PROFILE-INPUT-FIELDS\\Reports\\20210126_172738\\Admin Plugin Page\\Header\\20210126_172738\\1611653281461.png]]
+
+2021-01-26 17:28:02 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Admin/Plugin Page/Header/header_label' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Admin/Plugin Page/Header/header_label' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_UI_003.run(TC_UI_003:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611653258103.run(TempTestSuite1611653258103.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Profile Input Fields v2' and expected text 'Profile Input Field' of test object 'Object Repository/Admin/Plugin Page/Header/header_label' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|D:\\GITHUB\\AUTOMATION-PROFILE-INPUT-FIELDS\\Reports\\20210126_172738\\Admin Plugin Page\\Header\\20210126_172738\\1611653281856.png]]]]></system-out>
+         <system-err><![CDATA[2021-01-26 17:28:00 - [TEST_CASE][FAILED] - Test Cases/Admin Page/UI/Plugin Header/TC_UI_003: Test Cases/Admin Page/UI/Plugin Header/TC_UI_003 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Admin/Plugin Page/Header/header_label' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_UI_003.run(TC_UI_003:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611653258103.run(TempTestSuite1611653258103.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Profile Input Fields v2' and expected text 'Profile Input Field' of test object 'Object Repository/Admin/Plugin Page/Header/header_label' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Plugin Header/TC_UI_004" time="0.61" classname="Test Cases/Admin Page/UI/Plugin Header/TC_UI_004" status="PASSED">
+         <system-out><![CDATA[2021-01-26 17:28:02 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Plugin Header/TC_UI_004: Test Cases/Admin Page/UI/Plugin Header/TC_UI_004
+
+2021-01-26 17:28:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin/Plugin Page/Header/link_context"), 0): Object 'Object Repository/Admin/Plugin Page/Header/link_context' is present
+
+2021-01-26 17:28:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-26 17:28:02 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Header/link_context' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Plugin Header/TC_UI_005" time="0.17" classname="Test Cases/Admin Page/UI/Plugin Header/TC_UI_005" status="PASSED">
+         <system-out><![CDATA[2021-01-26 17:28:02 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Plugin Header/TC_UI_005: Test Cases/Admin Page/UI/Plugin Header/TC_UI_005
+
+2021-01-26 17:28:02 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Plugin Header/TC_UI_006" time="0.459" classname="Test Cases/Admin Page/UI/Plugin Header/TC_UI_006" status="PASSED">
+         <system-out><![CDATA[2021-01-26 17:28:02 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Plugin Header/TC_UI_006: Test Cases/Admin Page/UI/Plugin Header/TC_UI_006
+
+2021-01-26 17:28:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Admin/Plugin Page/Header/link_context"), "How to use this Plug-In?"): Actual text and expected text of test object 'Object Repository/Admin/Plugin Page/Header/link_context' are matched.
+
+2021-01-26 17:28:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Admin/Plugin Page/Header/link_context' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Plugin Header/TC_UI_007" time="0.56" classname="Test Cases/Admin Page/UI/Plugin Header/TC_UI_007" status="PASSED">
+         <system-out><![CDATA[2021-01-26 17:28:03 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Plugin Header/TC_UI_007: Test Cases/Admin Page/UI/Plugin Header/TC_UI_007
+
+2021-01-26 17:28:03 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Admin/Plugin Page/Header/link_context")): Object 'Object Repository/Admin/Plugin Page/Header/link_context' is clickable
+
+2021-01-26 17:28:04 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Header/link_context' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-26 17:27:41 - [TEST_SUITE][FAILED] - Header: Test Cases/Admin Page/UI/Plugin Header/TC_UI_003 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Admin/Plugin Page/Header/header_label' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_UI_003.run(TC_UI_003:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611653258103.run(TempTestSuite1611653258103.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Profile Input Fields v2' and expected text 'Profile Input Field' of test object 'Object Repository/Admin/Plugin Page/Header/header_label' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-01-26 17:27:41 - [TEST_SUITE][FAILED] - Header: Test Cases/Admin Page/UI/Plugin Header/TC_UI_003 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Admin/Plugin Page/Header/header_label' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_UI_003.run(TC_UI_003:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611653258103.run(TempTestSuite1611653258103.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Profile Input Fields v2' and expected text 'Profile Input Field' of test object 'Object Repository/Admin/Plugin Page/Header/header_label' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

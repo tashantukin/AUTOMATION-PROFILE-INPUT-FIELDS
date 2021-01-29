@@ -7,15 +7,14 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//h4[(text() = 'Profile Input Field' or . = 'Profile Input Field')]</value>
+         <value>//h4[(text() = 'Profile Input Fields v2' or . = 'Profile Input Fields v2')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='installed']/div/div[12]/div[2]/a/h4</value>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -32,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Profile Input Field</value>
+      <value>Profile Input Fields v2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

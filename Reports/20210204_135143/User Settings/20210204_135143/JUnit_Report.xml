@@ -1,0 +1,1781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User Settings" time="470.818" tests="8" failures="0" errors="0">
+   <testsuite name="User Settings" tests="8" failures="0" errors="0" time="470.818" timestamp="2021-02-04 13:51:55" hostname="Natasha - Natasha-PC" id="Test Suites/User Settings">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\GITHUB\\AUTOMATION-PROFILE-INPUT-FIELDS\\Reports\\20210204_135143\\User Settings\\20210204_135143"/>
+         <property name="logFiles" value="D:\\GITHUB\\AUTOMATION-PROFILE-INPUT-FIELDS\\Reports\\20210204_135143\\User Settings\\20210204_135143\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Natasha - Natasha-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 88.0.4324.104"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="a09266c878d78c186339b11984948c90"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User Settings/COMPLEX/TC_CMPLX_009" time="55.158" classname="Test Cases/User Settings/COMPLEX/TC_CMPLX_009" status="PASSED">
+         <system-out><![CDATA[2021-02-04 13:51:55 - [TEST_CASE][PASSED] - Test Cases/User Settings/COMPLEX/TC_CMPLX_009: Test Cases/User Settings/COMPLEX/TC_CMPLX_009
+
+2021-02-04 13:51:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Add New Text Custom Field"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Add New Text Custom Field' successfully
+
+2021-02-04 13:51:56 - [TEST_CASE][PASSED] - Test Cases/Utilities/Add New Text Custom Field: Test Cases/Utilities/Add New Text Custom Field
+
+2021-02-04 13:51:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:51:56 - [TEST_CASE][PASSED] - Test Cases/Utilities/Admin Login: Test Cases/Utilities/Admin Login
+
+2021-02-04 13:51:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-04 13:51:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-04 13:51:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-04 13:52:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-04 13:52:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-04 13:52:03 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-04 13:52:03 - [TEST_STEP][PASSED] - navigateToUrl(admin_url): Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:52:05 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:52:05 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-02-04 13:52:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-04 13:52:05 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_username"), admin_username): Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:52:05 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:52:05 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_password"), admin_password): Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:52:06 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:52:06 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Login/button_login")): Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:52:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:52:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:52:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Plugin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:52:10 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Plugin: Test Cases/Utilities/Navigate to Plugin
+
+2021-02-04 13:52:11 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_plugin")): Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:52:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:52:12 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_profile")): Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:52:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:52:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:52:13 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field")): Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field' is clicked on
+
+2021-02-04 13:52:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field' is clicked on
+
+2021-02-04 13:52:14 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name"), "Sample Text Customfield"): Text 'Sample Text Customfield' is set on object 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name'
+
+2021-02-04 13:52:15 - [MESSAGE][PASSED] - Text 'Sample Text Customfield' is set on object 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name'
+
+2021-02-04 13:52:15 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails")): Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails' is clicked on
+
+2021-02-04 13:52:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails' is clicked on
+
+2021-02-04 13:52:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-04 13:52:16 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-04 13:52:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Add New Text Custom Field' successfully
+
+2021-02-04 13:52:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Buyer Settings"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Buyer Settings' successfully
+
+2021-02-04 13:52:16 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Buyer Settings: Test Cases/Utilities/Navigate to Buyer Settings
+
+2021-02-04 13:52:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-04 13:52:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-04 13:52:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-04 13:52:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-04 13:52:19 - [TEST_STEP][PASSED] - navigateToUrl("https://youhadmeathelloworld.arcadier.io/"): Navigate to 'https://youhadmeathelloworld.arcadier.io/' successfully
+
+2021-02-04 13:52:21 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.arcadier.io/' successfully
+
+2021-02-04 13:52:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-04 13:52:24 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-04 13:52:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/a_REGISTER  SIGN IN")): Object: 'Object Repository/User/a_REGISTER  SIGN IN' is clicked on
+
+2021-02-04 13:52:25 - [MESSAGE][PASSED] - Object: 'Object Repository/User/a_REGISTER  SIGN IN' is clicked on
+
+2021-02-04 13:52:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User/input_Your emailusername_username"), "athena"): Text 'athena' is set on object 'Object Repository/User/input_Your emailusername_username'
+
+2021-02-04 13:52:26 - [MESSAGE][PASSED] - Text 'athena' is set on object 'Object Repository/User/input_Your emailusername_username'
+
+2021-02-04 13:52:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/User/input_Your password_password"), "goxxgxvM2dP/z7G09p4JaTtn5QD+a0Kw"): Text ****** has been set on object 'Object Repository/User/input_Your password_password'
+
+2021-02-04 13:52:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/User/input_Your password_password'
+
+2021-02-04 13:52:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/input_Your password_login-submit")): Object: 'Object Repository/User/input_Your password_login-submit' is clicked on
+
+2021-02-04 13:52:28 - [MESSAGE][PASSED] - Object: 'Object Repository/User/input_Your password_login-submit' is clicked on
+
+2021-02-04 13:52:28 - [TEST_STEP][PASSED] - mouseOver(findTestObject("User/i_EN_icon icon-down")): Object: 'Object Repository/User/i_EN_icon icon-down' is hovered
+
+2021-02-04 13:52:30 - [MESSAGE][PASSED] - Object: 'Object Repository/User/i_EN_icon icon-down' is hovered
+
+2021-02-04 13:52:30 - [TEST_STEP][PASSED] - click(findTestObject("User/a_Settings")): Object: 'Object Repository/User/a_Settings' is clicked on
+
+2021-02-04 13:52:31 - [MESSAGE][PASSED] - Object: 'Object Repository/User/a_Settings' is clicked on
+
+2021-02-04 13:52:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Buyer Settings' successfully
+
+2021-02-04 13:52:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("User/label_SAMPLE TEXT CUSTOMFIELD"), 0): Object 'Object Repository/User/label_SAMPLE TEXT CUSTOMFIELD' is present
+
+2021-02-04 13:52:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-02-04 13:52:33 - [MESSAGE][PASSED] - Object 'Object Repository/User/label_SAMPLE TEXT CUSTOMFIELD' is present
+
+2021-02-04 13:52:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("User/label_SAMPLE TEXT CUSTOMFIELD"), "SAMPLE TEXT CUSTOMFIELD"): Actual text and expected text of test object 'Object Repository/User/label_SAMPLE TEXT CUSTOMFIELD' are matched.
+
+2021-02-04 13:52:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/label_SAMPLE TEXT CUSTOMFIELD' are matched.
+
+2021-02-04 13:52:33 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("User/input_SAMPLE TEXT CUSTOMFIELD_Sample Text Customfield"), "type", "text", 0): Object 'Object Repository/User/input_SAMPLE TEXT CUSTOMFIELD_Sample Text Customfield' has attribute 'type' with value 'text'
+
+2021-02-04 13:52:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-02-04 13:52:33 - [MESSAGE][PASSED] - Object 'Object Repository/User/input_SAMPLE TEXT CUSTOMFIELD_Sample Text Customfield' has attribute 'type' with value 'text'
+
+2021-02-04 13:52:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Deleting Custom Field"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Deleting Custom Field' successfully
+
+2021-02-04 13:52:33 - [TEST_CASE][PASSED] - Test Cases/Utilities/Deleting Custom Field: Test Cases/Utilities/Deleting Custom Field
+
+2021-02-04 13:52:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:52:34 - [TEST_CASE][PASSED] - Test Cases/Utilities/Admin Login: Test Cases/Utilities/Admin Login
+
+2021-02-04 13:52:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-04 13:52:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-02-04 13:52:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-04 13:52:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-04 13:52:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-04 13:52:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-04 13:52:40 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-04 13:52:40 - [TEST_STEP][PASSED] - navigateToUrl(admin_url): Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:52:42 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:52:42 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-02-04 13:52:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-04 13:52:42 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_username"), admin_username): Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:52:42 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:52:42 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_password"), admin_password): Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:52:43 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:52:43 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Login/button_login")): Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:52:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:52:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:52:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Plugin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:52:46 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Plugin: Test Cases/Utilities/Navigate to Plugin
+
+2021-02-04 13:52:46 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_plugin")): Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:52:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:52:47 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_profile")): Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:52:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:52:49 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete")): Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' is clicked on
+
+2021-02-04 13:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' is clicked on
+
+2021-02-04 13:52:49 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Deleting Custom Fields/del_confirm")): Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/del_confirm' is clicked on
+
+2021-02-04 13:52:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/del_confirm' is clicked on
+
+2021-02-04 13:52:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-04 13:52:51 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-04 13:52:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Deleting Custom Field' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Settings/COMPLEX/TC_CMPLX_010" time="50.722" classname="Test Cases/User Settings/COMPLEX/TC_CMPLX_010" status="PASSED">
+         <system-out><![CDATA[2021-02-04 13:52:51 - [TEST_CASE][PASSED] - Test Cases/User Settings/COMPLEX/TC_CMPLX_010: Test Cases/User Settings/COMPLEX/TC_CMPLX_010
+
+2021-02-04 13:52:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Add new Number customfield"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Add new Number customfield' successfully
+
+2021-02-04 13:52:51 - [TEST_CASE][PASSED] - Test Cases/Utilities/Add new Number customfield: Test Cases/Utilities/Add new Number customfield
+
+2021-02-04 13:52:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:52:51 - [TEST_CASE][PASSED] - Test Cases/Utilities/Admin Login: Test Cases/Utilities/Admin Login
+
+2021-02-04 13:52:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-04 13:52:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-04 13:52:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-04 13:52:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-04 13:52:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-04 13:52:56 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-04 13:52:56 - [TEST_STEP][PASSED] - navigateToUrl(admin_url): Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:52:57 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:52:57 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-02-04 13:52:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-04 13:52:57 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_username"), admin_username): Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:52:58 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:52:58 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_password"), admin_password): Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:52:59 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:52:59 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Login/button_login")): Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:53:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:53:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:53:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Plugin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:53:02 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Plugin: Test Cases/Utilities/Navigate to Plugin
+
+2021-02-04 13:53:02 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_plugin")): Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:53:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:53:03 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_profile")): Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:53:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:53:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:53:04 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field")): Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field' is clicked on
+
+2021-02-04 13:53:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field' is clicked on
+
+2021-02-04 13:53:05 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name"), "Sample Customfield Number"): Text 'Sample Customfield Number' is set on object 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name'
+
+2021-02-04 13:53:06 - [MESSAGE][PASSED] - Text 'Sample Customfield Number' is set on object 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name'
+
+2021-02-04 13:53:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Admin/Plugin Page/Add New Text CF/select_Text                                _e22ab6"), "number", true): All options with value 'number' are selected in object 'Object Repository/Admin/Plugin Page/Add New Text CF/select_Text                                _e22ab6'  using regular expression
+
+2021-02-04 13:53:07 - [MESSAGE][PASSED] - All options with value 'number' are selected in object 'Object Repository/Admin/Plugin Page/Add New Text CF/select_Text                                _e22ab6'  using regular expression
+
+2021-02-04 13:53:07 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails")): Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails' is clicked on
+
+2021-02-04 13:53:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails' is clicked on
+
+2021-02-04 13:53:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-04 13:53:08 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-04 13:53:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Add new Number customfield' successfully
+
+2021-02-04 13:53:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Buyer Settings"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Buyer Settings' successfully
+
+2021-02-04 13:53:08 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Buyer Settings: Test Cases/Utilities/Navigate to Buyer Settings
+
+2021-02-04 13:53:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-04 13:53:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-04 13:53:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-04 13:53:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-04 13:53:11 - [TEST_STEP][PASSED] - navigateToUrl("https://youhadmeathelloworld.arcadier.io/"): Navigate to 'https://youhadmeathelloworld.arcadier.io/' successfully
+
+2021-02-04 13:53:14 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.arcadier.io/' successfully
+
+2021-02-04 13:53:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-04 13:53:16 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-04 13:53:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/a_REGISTER  SIGN IN")): Object: 'Object Repository/User/a_REGISTER  SIGN IN' is clicked on
+
+2021-02-04 13:53:17 - [MESSAGE][PASSED] - Object: 'Object Repository/User/a_REGISTER  SIGN IN' is clicked on
+
+2021-02-04 13:53:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User/input_Your emailusername_username"), "athena"): Text 'athena' is set on object 'Object Repository/User/input_Your emailusername_username'
+
+2021-02-04 13:53:18 - [MESSAGE][PASSED] - Text 'athena' is set on object 'Object Repository/User/input_Your emailusername_username'
+
+2021-02-04 13:53:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/User/input_Your password_password"), "goxxgxvM2dP/z7G09p4JaTtn5QD+a0Kw"): Text ****** has been set on object 'Object Repository/User/input_Your password_password'
+
+2021-02-04 13:53:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/User/input_Your password_password'
+
+2021-02-04 13:53:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/input_Your password_login-submit")): Object: 'Object Repository/User/input_Your password_login-submit' is clicked on
+
+2021-02-04 13:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/User/input_Your password_login-submit' is clicked on
+
+2021-02-04 13:53:20 - [TEST_STEP][PASSED] - mouseOver(findTestObject("User/i_EN_icon icon-down")): Object: 'Object Repository/User/i_EN_icon icon-down' is hovered
+
+2021-02-04 13:53:22 - [MESSAGE][PASSED] - Object: 'Object Repository/User/i_EN_icon icon-down' is hovered
+
+2021-02-04 13:53:22 - [TEST_STEP][PASSED] - click(findTestObject("User/a_Settings")): Object: 'Object Repository/User/a_Settings' is clicked on
+
+2021-02-04 13:53:23 - [MESSAGE][PASSED] - Object: 'Object Repository/User/a_Settings' is clicked on
+
+2021-02-04 13:53:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Buyer Settings' successfully
+
+2021-02-04 13:53:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("User/label_SAMPLE CUSTOMFIELD NUMBER"), 0): Object 'Object Repository/User/label_SAMPLE CUSTOMFIELD NUMBER' is present
+
+2021-02-04 13:53:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-02-04 13:53:24 - [MESSAGE][PASSED] - Object 'Object Repository/User/label_SAMPLE CUSTOMFIELD NUMBER' is present
+
+2021-02-04 13:53:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("User/label_SAMPLE CUSTOMFIELD NUMBER"), "SAMPLE CUSTOMFIELD NUMBER"): Actual text and expected text of test object 'Object Repository/User/label_SAMPLE CUSTOMFIELD NUMBER' are matched.
+
+2021-02-04 13:53:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/label_SAMPLE CUSTOMFIELD NUMBER' are matched.
+
+2021-02-04 13:53:24 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("User/input_SAMPLE CUSTOMFIELD NUMBER_Sample Customfield Number"), "type", "number", 0): Object 'Object Repository/User/input_SAMPLE CUSTOMFIELD NUMBER_Sample Customfield Number' has attribute 'type' with value 'number'
+
+2021-02-04 13:53:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-02-04 13:53:25 - [MESSAGE][PASSED] - Object 'Object Repository/User/input_SAMPLE CUSTOMFIELD NUMBER_Sample Customfield Number' has attribute 'type' with value 'number'
+
+2021-02-04 13:53:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Deleting Custom Field"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Deleting Custom Field' successfully
+
+2021-02-04 13:53:25 - [TEST_CASE][PASSED] - Test Cases/Utilities/Deleting Custom Field: Test Cases/Utilities/Deleting Custom Field
+
+2021-02-04 13:53:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:53:25 - [TEST_CASE][PASSED] - Test Cases/Utilities/Admin Login: Test Cases/Utilities/Admin Login
+
+2021-02-04 13:53:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-04 13:53:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-02-04 13:53:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-04 13:53:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-04 13:53:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-04 13:53:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-04 13:53:31 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-04 13:53:31 - [TEST_STEP][PASSED] - navigateToUrl(admin_url): Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:53:33 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:53:33 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-02-04 13:53:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-04 13:53:33 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_username"), admin_username): Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:53:33 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:53:33 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_password"), admin_password): Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:53:34 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:53:34 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Login/button_login")): Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:53:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:53:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:53:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Plugin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:53:37 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Plugin: Test Cases/Utilities/Navigate to Plugin
+
+2021-02-04 13:53:37 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_plugin")): Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:53:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:53:38 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_profile")): Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:53:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:53:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:53:39 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete")): Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' is clicked on
+
+2021-02-04 13:53:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' is clicked on
+
+2021-02-04 13:53:40 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Deleting Custom Fields/del_confirm")): Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/del_confirm' is clicked on
+
+2021-02-04 13:53:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/del_confirm' is clicked on
+
+2021-02-04 13:53:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-04 13:53:41 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-04 13:53:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Deleting Custom Field' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Settings/COMPLEX/TC_CMPLX_011" time="51.372" classname="Test Cases/User Settings/COMPLEX/TC_CMPLX_011" status="PASSED">
+         <system-out><![CDATA[2021-02-04 13:53:41 - [TEST_CASE][PASSED] - Test Cases/User Settings/COMPLEX/TC_CMPLX_011: Test Cases/User Settings/COMPLEX/TC_CMPLX_011
+
+2021-02-04 13:53:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Adding Custom field Checkbox"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Adding Custom field Checkbox' successfully
+
+2021-02-04 13:53:41 - [TEST_CASE][PASSED] - Test Cases/Utilities/Adding Custom field Checkbox: Test Cases/Utilities/Adding Custom field Checkbox
+
+2021-02-04 13:53:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:53:42 - [TEST_CASE][PASSED] - Test Cases/Utilities/Admin Login: Test Cases/Utilities/Admin Login
+
+2021-02-04 13:53:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-04 13:53:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-04 13:53:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-04 13:53:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-04 13:53:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-04 13:53:47 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-04 13:53:47 - [TEST_STEP][PASSED] - navigateToUrl(admin_url): Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:53:49 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:53:49 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-02-04 13:53:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-04 13:53:49 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_username"), admin_username): Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:53:49 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:53:49 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_password"), admin_password): Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:53:50 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:53:50 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Login/button_login")): Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:53:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:53:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:53:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Plugin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:53:53 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Plugin: Test Cases/Utilities/Navigate to Plugin
+
+2021-02-04 13:53:53 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_plugin")): Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:53:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:53:54 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_profile")): Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:53:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:53:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:53:56 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field")): Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field' is clicked on
+
+2021-02-04 13:53:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field' is clicked on
+
+2021-02-04 13:53:56 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name"), "Sample Customfield Checkbox"): Text 'Sample Customfield Checkbox' is set on object 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name'
+
+2021-02-04 13:53:57 - [MESSAGE][PASSED] - Text 'Sample Customfield Checkbox' is set on object 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name'
+
+2021-02-04 13:53:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin/Plugin Page/Add New Text CF/select_Text                                _e22ab6"), "checkbox", true): All options with value 'checkbox' are selected in object 'Object Repository/Admin/Plugin Page/Add New Text CF/select_Text                                _e22ab6'  using regular expression
+
+2021-02-04 13:53:58 - [MESSAGE][PASSED] - All options with value 'checkbox' are selected in object 'Object Repository/Admin/Plugin Page/Add New Text CF/select_Text                                _e22ab6'  using regular expression
+
+2021-02-04 13:53:58 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Plugin Page/Add New Text CF/input_Options_checkbox-opt"), "Option 1"): Text 'Option 1' is set on object 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Options_checkbox-opt'
+
+2021-02-04 13:53:59 - [MESSAGE][PASSED] - Text 'Option 1' is set on object 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Options_checkbox-opt'
+
+2021-02-04 13:53:59 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails")): Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails' is clicked on
+
+2021-02-04 13:53:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails' is clicked on
+
+2021-02-04 13:53:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-04 13:54:00 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-04 13:54:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Adding Custom field Checkbox' successfully
+
+2021-02-04 13:54:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Buyer Settings"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Buyer Settings' successfully
+
+2021-02-04 13:54:00 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Buyer Settings: Test Cases/Utilities/Navigate to Buyer Settings
+
+2021-02-04 13:54:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-04 13:54:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-04 13:54:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-04 13:54:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-04 13:54:03 - [TEST_STEP][PASSED] - navigateToUrl("https://youhadmeathelloworld.arcadier.io/"): Navigate to 'https://youhadmeathelloworld.arcadier.io/' successfully
+
+2021-02-04 13:54:06 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.arcadier.io/' successfully
+
+2021-02-04 13:54:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-04 13:54:08 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-04 13:54:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/a_REGISTER  SIGN IN")): Object: 'Object Repository/User/a_REGISTER  SIGN IN' is clicked on
+
+2021-02-04 13:54:09 - [MESSAGE][PASSED] - Object: 'Object Repository/User/a_REGISTER  SIGN IN' is clicked on
+
+2021-02-04 13:54:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User/input_Your emailusername_username"), "athena"): Text 'athena' is set on object 'Object Repository/User/input_Your emailusername_username'
+
+2021-02-04 13:54:10 - [MESSAGE][PASSED] - Text 'athena' is set on object 'Object Repository/User/input_Your emailusername_username'
+
+2021-02-04 13:54:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/User/input_Your password_password"), "goxxgxvM2dP/z7G09p4JaTtn5QD+a0Kw"): Text ****** has been set on object 'Object Repository/User/input_Your password_password'
+
+2021-02-04 13:54:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/User/input_Your password_password'
+
+2021-02-04 13:54:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/input_Your password_login-submit")): Object: 'Object Repository/User/input_Your password_login-submit' is clicked on
+
+2021-02-04 13:54:12 - [MESSAGE][PASSED] - Object: 'Object Repository/User/input_Your password_login-submit' is clicked on
+
+2021-02-04 13:54:12 - [TEST_STEP][PASSED] - mouseOver(findTestObject("User/i_EN_icon icon-down")): Object: 'Object Repository/User/i_EN_icon icon-down' is hovered
+
+2021-02-04 13:54:14 - [MESSAGE][PASSED] - Object: 'Object Repository/User/i_EN_icon icon-down' is hovered
+
+2021-02-04 13:54:14 - [TEST_STEP][PASSED] - click(findTestObject("User/a_Settings")): Object: 'Object Repository/User/a_Settings' is clicked on
+
+2021-02-04 13:54:14 - [MESSAGE][PASSED] - Object: 'Object Repository/User/a_Settings' is clicked on
+
+2021-02-04 13:54:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Buyer Settings' successfully
+
+2021-02-04 13:54:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("User/label_SAMPLE CUSTOMFIELD CHECKBOX"), 0): Object 'Object Repository/User/label_SAMPLE CUSTOMFIELD CHECKBOX' is present
+
+2021-02-04 13:54:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-02-04 13:54:15 - [MESSAGE][PASSED] - Object 'Object Repository/User/label_SAMPLE CUSTOMFIELD CHECKBOX' is present
+
+2021-02-04 13:54:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("User/label_SAMPLE CUSTOMFIELD CHECKBOX"), "SAMPLE CUSTOMFIELD CHECKBOX"): Actual text and expected text of test object 'Object Repository/User/label_SAMPLE CUSTOMFIELD CHECKBOX' are matched.
+
+2021-02-04 13:54:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/label_SAMPLE CUSTOMFIELD CHECKBOX' are matched.
+
+2021-02-04 13:54:16 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("User/input_checkbox"), "type", "checkbox", 0): Object 'Object Repository/User/input_checkbox' has attribute 'type' with value 'checkbox'
+
+2021-02-04 13:54:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-02-04 13:54:16 - [MESSAGE][PASSED] - Object 'Object Repository/User/input_checkbox' has attribute 'type' with value 'checkbox'
+
+2021-02-04 13:54:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Deleting Custom Field"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Deleting Custom Field' successfully
+
+2021-02-04 13:54:16 - [TEST_CASE][PASSED] - Test Cases/Utilities/Deleting Custom Field: Test Cases/Utilities/Deleting Custom Field
+
+2021-02-04 13:54:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:54:16 - [TEST_CASE][PASSED] - Test Cases/Utilities/Admin Login: Test Cases/Utilities/Admin Login
+
+2021-02-04 13:54:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-04 13:54:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-02-04 13:54:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-04 13:54:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-04 13:54:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-04 13:54:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-04 13:54:22 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-04 13:54:22 - [TEST_STEP][PASSED] - navigateToUrl(admin_url): Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:54:24 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:54:24 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-02-04 13:54:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-04 13:54:24 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_username"), admin_username): Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:54:24 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:54:24 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_password"), admin_password): Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:54:25 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:54:25 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Login/button_login")): Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:54:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:54:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:54:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Plugin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:54:28 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Plugin: Test Cases/Utilities/Navigate to Plugin
+
+2021-02-04 13:54:28 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_plugin")): Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:54:29 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_profile")): Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:54:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:54:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:54:31 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete")): Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' is clicked on
+
+2021-02-04 13:54:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' is clicked on
+
+2021-02-04 13:54:31 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Deleting Custom Fields/del_confirm")): Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/del_confirm' is clicked on
+
+2021-02-04 13:54:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/del_confirm' is clicked on
+
+2021-02-04 13:54:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-04 13:54:33 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-04 13:54:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Deleting Custom Field' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Settings/COMPLEX/TC_CMPLX_012" time="53.182" classname="Test Cases/User Settings/COMPLEX/TC_CMPLX_012" status="PASSED">
+         <system-out><![CDATA[2021-02-04 13:54:33 - [TEST_CASE][PASSED] - Test Cases/User Settings/COMPLEX/TC_CMPLX_012: Test Cases/User Settings/COMPLEX/TC_CMPLX_012
+
+2021-02-04 13:54:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Add Customfield Dropdown"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Add Customfield Dropdown' successfully
+
+2021-02-04 13:54:33 - [TEST_CASE][PASSED] - Test Cases/Utilities/Add Customfield Dropdown: Test Cases/Utilities/Add Customfield Dropdown
+
+2021-02-04 13:54:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:54:33 - [TEST_CASE][PASSED] - Test Cases/Utilities/Admin Login: Test Cases/Utilities/Admin Login
+
+2021-02-04 13:54:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-04 13:54:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-04 13:54:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-04 13:54:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-04 13:54:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-04 13:54:39 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-04 13:54:39 - [TEST_STEP][PASSED] - navigateToUrl(admin_url): Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:54:40 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:54:40 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-02-04 13:54:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-04 13:54:40 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_username"), admin_username): Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:54:41 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:54:41 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_password"), admin_password): Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:54:41 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:54:41 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Login/button_login")): Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:54:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:54:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:54:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Plugin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:54:44 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Plugin: Test Cases/Utilities/Navigate to Plugin
+
+2021-02-04 13:54:44 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_plugin")): Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:54:45 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_profile")): Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:54:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:54:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:54:48 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field")): Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field' is clicked on
+
+2021-02-04 13:54:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field' is clicked on
+
+2021-02-04 13:54:48 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name"), "Sample Customfield Dropdown"): Text 'Sample Customfield Dropdown' is set on object 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name'
+
+2021-02-04 13:54:49 - [MESSAGE][PASSED] - Text 'Sample Customfield Dropdown' is set on object 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name'
+
+2021-02-04 13:54:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin/Plugin Page/Add New Text CF/select_Text                                _e22ab6"), "dropdown", true): All options with value 'dropdown' are selected in object 'Object Repository/Admin/Plugin Page/Add New Text CF/select_Text                                _e22ab6'  using regular expression
+
+2021-02-04 13:54:50 - [MESSAGE][PASSED] - All options with value 'dropdown' are selected in object 'Object Repository/Admin/Plugin Page/Add New Text CF/select_Text                                _e22ab6'  using regular expression
+
+2021-02-04 13:54:50 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Plugin Page/Add New Text CF/input_Options_checkbox-opt"), "option 1"): Text 'option 1' is set on object 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Options_checkbox-opt'
+
+2021-02-04 13:54:51 - [MESSAGE][PASSED] - Text 'option 1' is set on object 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Options_checkbox-opt'
+
+2021-02-04 13:54:51 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails")): Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails' is clicked on
+
+2021-02-04 13:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails' is clicked on
+
+2021-02-04 13:54:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-04 13:54:52 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-04 13:54:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Add Customfield Dropdown' successfully
+
+2021-02-04 13:54:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Buyer Settings"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Buyer Settings' successfully
+
+2021-02-04 13:54:52 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Buyer Settings: Test Cases/Utilities/Navigate to Buyer Settings
+
+2021-02-04 13:54:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-04 13:54:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-04 13:54:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-04 13:54:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-04 13:54:55 - [TEST_STEP][PASSED] - navigateToUrl("https://youhadmeathelloworld.arcadier.io/"): Navigate to 'https://youhadmeathelloworld.arcadier.io/' successfully
+
+2021-02-04 13:54:57 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.arcadier.io/' successfully
+
+2021-02-04 13:54:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-04 13:54:59 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-04 13:54:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/a_REGISTER  SIGN IN")): Object: 'Object Repository/User/a_REGISTER  SIGN IN' is clicked on
+
+2021-02-04 13:55:00 - [MESSAGE][PASSED] - Object: 'Object Repository/User/a_REGISTER  SIGN IN' is clicked on
+
+2021-02-04 13:55:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User/input_Your emailusername_username"), "athena"): Text 'athena' is set on object 'Object Repository/User/input_Your emailusername_username'
+
+2021-02-04 13:55:01 - [MESSAGE][PASSED] - Text 'athena' is set on object 'Object Repository/User/input_Your emailusername_username'
+
+2021-02-04 13:55:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/User/input_Your password_password"), "goxxgxvM2dP/z7G09p4JaTtn5QD+a0Kw"): Text ****** has been set on object 'Object Repository/User/input_Your password_password'
+
+2021-02-04 13:55:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/User/input_Your password_password'
+
+2021-02-04 13:55:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/input_Your password_login-submit")): Object: 'Object Repository/User/input_Your password_login-submit' is clicked on
+
+2021-02-04 13:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/User/input_Your password_login-submit' is clicked on
+
+2021-02-04 13:55:04 - [TEST_STEP][PASSED] - mouseOver(findTestObject("User/i_EN_icon icon-down")): Object: 'Object Repository/User/i_EN_icon icon-down' is hovered
+
+2021-02-04 13:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/User/i_EN_icon icon-down' is hovered
+
+2021-02-04 13:55:05 - [TEST_STEP][PASSED] - click(findTestObject("User/a_Settings")): Object: 'Object Repository/User/a_Settings' is clicked on
+
+2021-02-04 13:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/User/a_Settings' is clicked on
+
+2021-02-04 13:55:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Buyer Settings' successfully
+
+2021-02-04 13:55:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("User/label_SAMPLE CUSTOMFIELD DROPDOWN"), 0): Object 'Object Repository/User/label_SAMPLE CUSTOMFIELD DROPDOWN' is present
+
+2021-02-04 13:55:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-02-04 13:55:07 - [MESSAGE][PASSED] - Object 'Object Repository/User/label_SAMPLE CUSTOMFIELD DROPDOWN' is present
+
+2021-02-04 13:55:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("User/label_SAMPLE CUSTOMFIELD CHECKBOX"), "SAMPLE CUSTOMFIELD DROPDOWN"): Actual text and expected text of test object 'Object Repository/User/label_SAMPLE CUSTOMFIELD CHECKBOX' are matched.
+
+2021-02-04 13:55:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/label_SAMPLE CUSTOMFIELD CHECKBOX' are matched.
+
+2021-02-04 13:55:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Deleting Custom Field"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Deleting Custom Field' successfully
+
+2021-02-04 13:55:08 - [TEST_CASE][PASSED] - Test Cases/Utilities/Deleting Custom Field: Test Cases/Utilities/Deleting Custom Field
+
+2021-02-04 13:55:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:55:08 - [TEST_CASE][PASSED] - Test Cases/Utilities/Admin Login: Test Cases/Utilities/Admin Login
+
+2021-02-04 13:55:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-04 13:55:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-02-04 13:55:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-04 13:55:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-04 13:55:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-04 13:55:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-04 13:55:14 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-04 13:55:14 - [TEST_STEP][PASSED] - navigateToUrl(admin_url): Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:55:16 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:55:16 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-02-04 13:55:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-04 13:55:16 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_username"), admin_username): Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:55:17 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:55:17 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_password"), admin_password): Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:55:17 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:55:17 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Login/button_login")): Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:55:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:55:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Plugin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:55:22 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Plugin: Test Cases/Utilities/Navigate to Plugin
+
+2021-02-04 13:55:22 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_plugin")): Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:55:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:55:22 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_profile")): Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:55:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:55:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:55:24 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete")): Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' is clicked on
+
+2021-02-04 13:55:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' is clicked on
+
+2021-02-04 13:55:25 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Deleting Custom Fields/del_confirm")): Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/del_confirm' is clicked on
+
+2021-02-04 13:55:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/del_confirm' is clicked on
+
+2021-02-04 13:55:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-04 13:55:26 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-04 13:55:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Deleting Custom Field' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Settings/COMPLEX/TC_CMPLX_013" time="59.751" classname="Test Cases/User Settings/COMPLEX/TC_CMPLX_013" status="PASSED">
+         <system-out><![CDATA[2021-02-04 13:55:26 - [TEST_CASE][PASSED] - Test Cases/User Settings/COMPLEX/TC_CMPLX_013: Test Cases/User Settings/COMPLEX/TC_CMPLX_013
+
+2021-02-04 13:55:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Edit Custom Field"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Edit Custom Field' successfully
+
+2021-02-04 13:55:26 - [TEST_CASE][PASSED] - Test Cases/Utilities/Edit Custom Field: Test Cases/Utilities/Edit Custom Field
+
+2021-02-04 13:55:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:55:26 - [TEST_CASE][PASSED] - Test Cases/Utilities/Admin Login: Test Cases/Utilities/Admin Login
+
+2021-02-04 13:55:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-04 13:55:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-04 13:55:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-04 13:55:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-04 13:55:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-04 13:55:31 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-04 13:55:31 - [TEST_STEP][PASSED] - navigateToUrl(admin_url): Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:55:37 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:55:37 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-02-04 13:55:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-04 13:55:37 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_username"), admin_username): Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:55:37 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:55:37 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_password"), admin_password): Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:55:38 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:55:38 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Login/button_login")): Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:55:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:55:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:55:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Plugin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:55:42 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Plugin: Test Cases/Utilities/Navigate to Plugin
+
+2021-02-04 13:55:42 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_plugin")): Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:55:43 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_profile")): Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:55:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:55:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:55:44 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field")): Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field' is clicked on
+
+2021-02-04 13:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field' is clicked on
+
+2021-02-04 13:55:45 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name"), "Sample Custom field "): Text 'Sample Custom field ' is set on object 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name'
+
+2021-02-04 13:55:46 - [MESSAGE][PASSED] - Text 'Sample Custom field ' is set on object 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name'
+
+2021-02-04 13:55:46 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails")): Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails' is clicked on
+
+2021-02-04 13:55:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails' is clicked on
+
+2021-02-04 13:55:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Plugin Page/Add New Text CF/i_Textfield_icon icon-edit")): Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/i_Textfield_icon icon-edit' is clicked on
+
+2021-02-04 13:55:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/i_Textfield_icon icon-edit' is clicked on
+
+2021-02-04 13:55:49 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name"), "Sample Custom field Edited"): Text 'Sample Custom field Edited' is set on object 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name'
+
+2021-02-04 13:55:50 - [MESSAGE][PASSED] - Text 'Sample Custom field Edited' is set on object 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name'
+
+2021-02-04 13:55:50 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails")): Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails' is clicked on
+
+2021-02-04 13:55:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails' is clicked on
+
+2021-02-04 13:55:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-04 13:55:51 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-04 13:55:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Edit Custom Field' successfully
+
+2021-02-04 13:55:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Buyer Settings"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Buyer Settings' successfully
+
+2021-02-04 13:55:51 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Buyer Settings: Test Cases/Utilities/Navigate to Buyer Settings
+
+2021-02-04 13:55:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-04 13:55:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-04 13:55:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-04 13:55:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-04 13:55:54 - [TEST_STEP][PASSED] - navigateToUrl("https://youhadmeathelloworld.arcadier.io/"): Navigate to 'https://youhadmeathelloworld.arcadier.io/' successfully
+
+2021-02-04 13:55:56 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.arcadier.io/' successfully
+
+2021-02-04 13:55:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-04 13:55:58 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-04 13:55:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/a_REGISTER  SIGN IN")): Object: 'Object Repository/User/a_REGISTER  SIGN IN' is clicked on
+
+2021-02-04 13:55:59 - [MESSAGE][PASSED] - Object: 'Object Repository/User/a_REGISTER  SIGN IN' is clicked on
+
+2021-02-04 13:55:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User/input_Your emailusername_username"), "athena"): Text 'athena' is set on object 'Object Repository/User/input_Your emailusername_username'
+
+2021-02-04 13:56:00 - [MESSAGE][PASSED] - Text 'athena' is set on object 'Object Repository/User/input_Your emailusername_username'
+
+2021-02-04 13:56:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/User/input_Your password_password"), "goxxgxvM2dP/z7G09p4JaTtn5QD+a0Kw"): Text ****** has been set on object 'Object Repository/User/input_Your password_password'
+
+2021-02-04 13:56:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/User/input_Your password_password'
+
+2021-02-04 13:56:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/input_Your password_login-submit")): Object: 'Object Repository/User/input_Your password_login-submit' is clicked on
+
+2021-02-04 13:56:03 - [MESSAGE][PASSED] - Object: 'Object Repository/User/input_Your password_login-submit' is clicked on
+
+2021-02-04 13:56:03 - [TEST_STEP][PASSED] - mouseOver(findTestObject("User/i_EN_icon icon-down")): Object: 'Object Repository/User/i_EN_icon icon-down' is hovered
+
+2021-02-04 13:56:04 - [MESSAGE][PASSED] - Object: 'Object Repository/User/i_EN_icon icon-down' is hovered
+
+2021-02-04 13:56:04 - [TEST_STEP][PASSED] - click(findTestObject("User/a_Settings")): Object: 'Object Repository/User/a_Settings' is clicked on
+
+2021-02-04 13:56:05 - [MESSAGE][PASSED] - Object: 'Object Repository/User/a_Settings' is clicked on
+
+2021-02-04 13:56:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Buyer Settings' successfully
+
+2021-02-04 13:56:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("User/label_SAMPLE CUSTOM FIELD EDITED"), 0): Object 'Object Repository/User/label_SAMPLE CUSTOM FIELD EDITED' is present
+
+2021-02-04 13:56:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-02-04 13:56:06 - [MESSAGE][PASSED] - Object 'Object Repository/User/label_SAMPLE CUSTOM FIELD EDITED' is present
+
+2021-02-04 13:56:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("User/label_SAMPLE CUSTOM FIELD EDITED"), "SAMPLE CUSTOM FIELD EDITED"): Actual text and expected text of test object 'Object Repository/User/label_SAMPLE CUSTOM FIELD EDITED' are matched.
+
+2021-02-04 13:56:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/label_SAMPLE CUSTOM FIELD EDITED' are matched.
+
+2021-02-04 13:56:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Deleting Custom Field"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Deleting Custom Field' successfully
+
+2021-02-04 13:56:06 - [TEST_CASE][PASSED] - Test Cases/Utilities/Deleting Custom Field: Test Cases/Utilities/Deleting Custom Field
+
+2021-02-04 13:56:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:56:06 - [TEST_CASE][PASSED] - Test Cases/Utilities/Admin Login: Test Cases/Utilities/Admin Login
+
+2021-02-04 13:56:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-04 13:56:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-02-04 13:56:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-04 13:56:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-04 13:56:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-04 13:56:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-04 13:56:13 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-04 13:56:13 - [TEST_STEP][PASSED] - navigateToUrl(admin_url): Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:56:14 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:56:14 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-02-04 13:56:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-04 13:56:14 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_username"), admin_username): Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:56:15 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:56:15 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_password"), admin_password): Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:56:16 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:56:16 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Login/button_login")): Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:56:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:56:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:56:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Plugin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:56:21 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Plugin: Test Cases/Utilities/Navigate to Plugin
+
+2021-02-04 13:56:21 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_plugin")): Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:56:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:56:22 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_profile")): Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:56:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:56:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:56:24 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete")): Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' is clicked on
+
+2021-02-04 13:56:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' is clicked on
+
+2021-02-04 13:56:24 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Deleting Custom Fields/del_confirm")): Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/del_confirm' is clicked on
+
+2021-02-04 13:56:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/del_confirm' is clicked on
+
+2021-02-04 13:56:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-04 13:56:26 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-04 13:56:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Deleting Custom Field' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Settings/COMPLEX/TC_CMPLX_014" time="59.907" classname="Test Cases/User Settings/COMPLEX/TC_CMPLX_014" status="PASSED">
+         <system-out><![CDATA[2021-02-04 13:56:26 - [TEST_CASE][PASSED] - Test Cases/User Settings/COMPLEX/TC_CMPLX_014: Test Cases/User Settings/COMPLEX/TC_CMPLX_014
+
+2021-02-04 13:56:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Add New Text Custom Field"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Add New Text Custom Field' successfully
+
+2021-02-04 13:56:26 - [TEST_CASE][PASSED] - Test Cases/Utilities/Add New Text Custom Field: Test Cases/Utilities/Add New Text Custom Field
+
+2021-02-04 13:56:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:56:26 - [TEST_CASE][PASSED] - Test Cases/Utilities/Admin Login: Test Cases/Utilities/Admin Login
+
+2021-02-04 13:56:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-04 13:56:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-04 13:56:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-04 13:56:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-04 13:56:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-04 13:56:31 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-04 13:56:31 - [TEST_STEP][PASSED] - navigateToUrl(admin_url): Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:56:35 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:56:35 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-02-04 13:56:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-04 13:56:35 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_username"), admin_username): Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:56:36 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:56:36 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_password"), admin_password): Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:56:36 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:56:36 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Login/button_login")): Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:56:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:56:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:56:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Plugin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:56:47 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Plugin: Test Cases/Utilities/Navigate to Plugin
+
+2021-02-04 13:56:47 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_plugin")): Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:56:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:56:48 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_profile")): Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:56:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:56:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:56:50 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field")): Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field' is clicked on
+
+2021-02-04 13:56:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field' is clicked on
+
+2021-02-04 13:56:51 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name"), "Sample Text Customfield"): Text 'Sample Text Customfield' is set on object 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name'
+
+2021-02-04 13:56:52 - [MESSAGE][PASSED] - Text 'Sample Text Customfield' is set on object 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name'
+
+2021-02-04 13:56:52 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails")): Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails' is clicked on
+
+2021-02-04 13:56:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails' is clicked on
+
+2021-02-04 13:56:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-04 13:56:53 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-04 13:56:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Add New Text Custom Field' successfully
+
+2021-02-04 13:56:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Deleting Custom Field"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Deleting Custom Field' successfully
+
+2021-02-04 13:56:53 - [TEST_CASE][PASSED] - Test Cases/Utilities/Deleting Custom Field: Test Cases/Utilities/Deleting Custom Field
+
+2021-02-04 13:56:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:56:53 - [TEST_CASE][PASSED] - Test Cases/Utilities/Admin Login: Test Cases/Utilities/Admin Login
+
+2021-02-04 13:56:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-04 13:56:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-04 13:56:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-04 13:56:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-04 13:56:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-04 13:56:58 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-04 13:56:58 - [TEST_STEP][PASSED] - navigateToUrl(admin_url): Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:57:01 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:57:01 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-02-04 13:57:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-04 13:57:01 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_username"), admin_username): Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:57:02 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:57:02 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_password"), admin_password): Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:57:02 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:57:02 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Login/button_login")): Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:57:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:57:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:57:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Plugin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:57:06 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Plugin: Test Cases/Utilities/Navigate to Plugin
+
+2021-02-04 13:57:06 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_plugin")): Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:57:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:57:07 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_profile")): Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:57:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:57:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:57:08 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete")): Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' is clicked on
+
+2021-02-04 13:57:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' is clicked on
+
+2021-02-04 13:57:09 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Deleting Custom Fields/del_confirm")): Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/del_confirm' is clicked on
+
+2021-02-04 13:57:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/del_confirm' is clicked on
+
+2021-02-04 13:57:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-04 13:57:10 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-04 13:57:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Deleting Custom Field' successfully
+
+2021-02-04 13:57:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Buyer Settings"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Buyer Settings' successfully
+
+2021-02-04 13:57:10 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Buyer Settings: Test Cases/Utilities/Navigate to Buyer Settings
+
+2021-02-04 13:57:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-04 13:57:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-04 13:57:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-04 13:57:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-04 13:57:13 - [TEST_STEP][PASSED] - navigateToUrl("https://youhadmeathelloworld.arcadier.io/"): Navigate to 'https://youhadmeathelloworld.arcadier.io/' successfully
+
+2021-02-04 13:57:15 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.arcadier.io/' successfully
+
+2021-02-04 13:57:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-04 13:57:17 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-04 13:57:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/a_REGISTER  SIGN IN")): Object: 'Object Repository/User/a_REGISTER  SIGN IN' is clicked on
+
+2021-02-04 13:57:18 - [MESSAGE][PASSED] - Object: 'Object Repository/User/a_REGISTER  SIGN IN' is clicked on
+
+2021-02-04 13:57:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User/input_Your emailusername_username"), "athena"): Text 'athena' is set on object 'Object Repository/User/input_Your emailusername_username'
+
+2021-02-04 13:57:19 - [MESSAGE][PASSED] - Text 'athena' is set on object 'Object Repository/User/input_Your emailusername_username'
+
+2021-02-04 13:57:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/User/input_Your password_password"), "goxxgxvM2dP/z7G09p4JaTtn5QD+a0Kw"): Text ****** has been set on object 'Object Repository/User/input_Your password_password'
+
+2021-02-04 13:57:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/User/input_Your password_password'
+
+2021-02-04 13:57:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/input_Your password_login-submit")): Object: 'Object Repository/User/input_Your password_login-submit' is clicked on
+
+2021-02-04 13:57:22 - [MESSAGE][PASSED] - Object: 'Object Repository/User/input_Your password_login-submit' is clicked on
+
+2021-02-04 13:57:22 - [TEST_STEP][PASSED] - mouseOver(findTestObject("User/i_EN_icon icon-down")): Object: 'Object Repository/User/i_EN_icon icon-down' is hovered
+
+2021-02-04 13:57:23 - [MESSAGE][PASSED] - Object: 'Object Repository/User/i_EN_icon icon-down' is hovered
+
+2021-02-04 13:57:23 - [TEST_STEP][PASSED] - click(findTestObject("User/a_Settings")): Object: 'Object Repository/User/a_Settings' is clicked on
+
+2021-02-04 13:57:24 - [MESSAGE][PASSED] - Object: 'Object Repository/User/a_Settings' is clicked on
+
+2021-02-04 13:57:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Buyer Settings' successfully
+
+2021-02-04 13:57:24 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("User/input_SAMPLE TEXT CUSTOMFIELD_Sample Text Customfield"), 0): Web element with id: 'Object Repository/User/input_SAMPLE TEXT CUSTOMFIELD_Sample Text Customfield' located by 'By.xpath: //*[@type = 'text' and @name = 'Sample Text Customfield']' is not present after '30' second(s)
+
+2021-02-04 13:57:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-02-04 13:57:25 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/User/input_SAMPLE TEXT CUSTOMFIELD_Sample Text Customfield' located by 'By.xpath: //*[@type = 'text' and @name = 'Sample Text Customfield']' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Settings/COMPLEX/TC_CMPLX_015" time="59.852" classname="Test Cases/User Settings/COMPLEX/TC_CMPLX_015" status="PASSED">
+         <system-out><![CDATA[2021-02-04 13:57:25 - [TEST_CASE][PASSED] - Test Cases/User Settings/COMPLEX/TC_CMPLX_015: Test Cases/User Settings/COMPLEX/TC_CMPLX_015
+
+2021-02-04 13:57:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Add New Text Custom Field"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Add New Text Custom Field' successfully
+
+2021-02-04 13:57:26 - [TEST_CASE][PASSED] - Test Cases/Utilities/Add New Text Custom Field: Test Cases/Utilities/Add New Text Custom Field
+
+2021-02-04 13:57:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:57:26 - [TEST_CASE][PASSED] - Test Cases/Utilities/Admin Login: Test Cases/Utilities/Admin Login
+
+2021-02-04 13:57:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-04 13:57:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-02-04 13:57:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-04 13:57:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-04 13:57:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-04 13:57:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-04 13:57:32 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-04 13:57:32 - [TEST_STEP][PASSED] - navigateToUrl(admin_url): Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:57:33 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:57:33 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-02-04 13:57:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-04 13:57:33 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_username"), admin_username): Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:57:34 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:57:34 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_password"), admin_password): Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:57:35 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:57:35 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Login/button_login")): Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:57:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:57:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:57:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Plugin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:57:39 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Plugin: Test Cases/Utilities/Navigate to Plugin
+
+2021-02-04 13:57:39 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_plugin")): Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:57:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:57:39 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_profile")): Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:57:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:57:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:57:41 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field")): Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field' is clicked on
+
+2021-02-04 13:57:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field' is clicked on
+
+2021-02-04 13:57:42 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name"), "Sample Text Customfield"): Text 'Sample Text Customfield' is set on object 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name'
+
+2021-02-04 13:57:43 - [MESSAGE][PASSED] - Text 'Sample Text Customfield' is set on object 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name'
+
+2021-02-04 13:57:43 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails")): Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails' is clicked on
+
+2021-02-04 13:57:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails' is clicked on
+
+2021-02-04 13:57:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-04 13:57:44 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-04 13:57:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Add New Text Custom Field' successfully
+
+2021-02-04 13:57:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Buyer Settings"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Buyer Settings' successfully
+
+2021-02-04 13:57:44 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Buyer Settings: Test Cases/Utilities/Navigate to Buyer Settings
+
+2021-02-04 13:57:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-04 13:57:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-04 13:57:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-04 13:57:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-04 13:57:47 - [TEST_STEP][PASSED] - navigateToUrl("https://youhadmeathelloworld.arcadier.io/"): Navigate to 'https://youhadmeathelloworld.arcadier.io/' successfully
+
+2021-02-04 13:57:49 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.arcadier.io/' successfully
+
+2021-02-04 13:57:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-04 13:57:51 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-04 13:57:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/a_REGISTER  SIGN IN")): Object: 'Object Repository/User/a_REGISTER  SIGN IN' is clicked on
+
+2021-02-04 13:57:52 - [MESSAGE][PASSED] - Object: 'Object Repository/User/a_REGISTER  SIGN IN' is clicked on
+
+2021-02-04 13:57:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User/input_Your emailusername_username"), "athena"): Text 'athena' is set on object 'Object Repository/User/input_Your emailusername_username'
+
+2021-02-04 13:57:53 - [MESSAGE][PASSED] - Text 'athena' is set on object 'Object Repository/User/input_Your emailusername_username'
+
+2021-02-04 13:57:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/User/input_Your password_password"), "goxxgxvM2dP/z7G09p4JaTtn5QD+a0Kw"): Text ****** has been set on object 'Object Repository/User/input_Your password_password'
+
+2021-02-04 13:57:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/User/input_Your password_password'
+
+2021-02-04 13:57:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/input_Your password_login-submit")): Object: 'Object Repository/User/input_Your password_login-submit' is clicked on
+
+2021-02-04 13:57:56 - [MESSAGE][PASSED] - Object: 'Object Repository/User/input_Your password_login-submit' is clicked on
+
+2021-02-04 13:57:56 - [TEST_STEP][PASSED] - mouseOver(findTestObject("User/i_EN_icon icon-down")): Object: 'Object Repository/User/i_EN_icon icon-down' is hovered
+
+2021-02-04 13:57:58 - [MESSAGE][PASSED] - Object: 'Object Repository/User/i_EN_icon icon-down' is hovered
+
+2021-02-04 13:57:58 - [TEST_STEP][PASSED] - click(findTestObject("User/a_Settings")): Object: 'Object Repository/User/a_Settings' is clicked on
+
+2021-02-04 13:57:59 - [MESSAGE][PASSED] - Object: 'Object Repository/User/a_Settings' is clicked on
+
+2021-02-04 13:57:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Buyer Settings' successfully
+
+2021-02-04 13:57:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User/custom values/input_SAMPLE TEXT CUSTOMFIELD_Sample Text C_ce5c8c"), "customfield value"): Text 'customfield value' is set on object 'Object Repository/User/custom values/input_SAMPLE TEXT CUSTOMFIELD_Sample Text C_ce5c8c'
+
+2021-02-04 13:58:00 - [MESSAGE][PASSED] - Text 'customfield value' is set on object 'Object Repository/User/custom values/input_SAMPLE TEXT CUSTOMFIELD_Sample Text C_ce5c8c'
+
+2021-02-04 13:58:00 - [TEST_STEP][PASSED] - click(findTestObject("User/accept_cookies")): Object: 'Object Repository/User/accept_cookies' is clicked on
+
+2021-02-04 13:58:01 - [MESSAGE][PASSED] - Object: 'Object Repository/User/accept_cookies' is clicked on
+
+2021-02-04 13:58:01 - [TEST_STEP][PASSED] - click(findTestObject("User/custom values/a_NEXT")): Object: 'Object Repository/User/custom values/a_NEXT' is clicked on
+
+2021-02-04 13:58:02 - [MESSAGE][PASSED] - Object: 'Object Repository/User/custom values/a_NEXT' is clicked on
+
+2021-02-04 13:58:02 - [TEST_STEP][PASSED] - click(findTestObject("User/custom values/a_SAVE")): Object: 'Object Repository/User/custom values/a_SAVE' is clicked on
+
+2021-02-04 13:58:04 - [MESSAGE][PASSED] - Object: 'Object Repository/User/custom values/a_SAVE' is clicked on
+
+2021-02-04 13:58:04 - [TEST_STEP][PASSED] - mouseOver(findTestObject("User/i_EN_icon icon-down")): Object: 'Object Repository/User/i_EN_icon icon-down' is hovered
+
+2021-02-04 13:58:06 - [MESSAGE][PASSED] - Object: 'Object Repository/User/i_EN_icon icon-down' is hovered
+
+2021-02-04 13:58:06 - [TEST_STEP][PASSED] - click(findTestObject("User/a_Settings")): Object: 'Object Repository/User/a_Settings' is clicked on
+
+2021-02-04 13:58:07 - [MESSAGE][PASSED] - Object: 'Object Repository/User/a_Settings' is clicked on
+
+2021-02-04 13:58:07 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("User/custom values/input_SAMPLE TEXT CUSTOMFIELD_Sample Text C_ce5c8c"), "value", "customfield value", 0): Object 'Object Repository/User/custom values/input_SAMPLE TEXT CUSTOMFIELD_Sample Text C_ce5c8c' has attribute 'value' with value 'customfield value'
+
+2021-02-04 13:58:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-02-04 13:58:08 - [MESSAGE][PASSED] - Object 'Object Repository/User/custom values/input_SAMPLE TEXT CUSTOMFIELD_Sample Text C_ce5c8c' has attribute 'value' with value 'customfield value'
+
+2021-02-04 13:58:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-04 13:58:09 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-04 13:58:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Deleting Custom Field"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Deleting Custom Field' successfully
+
+2021-02-04 13:58:09 - [TEST_CASE][PASSED] - Test Cases/Utilities/Deleting Custom Field: Test Cases/Utilities/Deleting Custom Field
+
+2021-02-04 13:58:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:58:09 - [TEST_CASE][PASSED] - Test Cases/Utilities/Admin Login: Test Cases/Utilities/Admin Login
+
+2021-02-04 13:58:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-04 13:58:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-04 13:58:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-04 13:58:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-04 13:58:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-04 13:58:14 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-04 13:58:14 - [TEST_STEP][PASSED] - navigateToUrl(admin_url): Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:58:16 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:58:16 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-02-04 13:58:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-04 13:58:16 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_username"), admin_username): Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:58:17 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:58:17 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_password"), admin_password): Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:58:17 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:58:17 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Login/button_login")): Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:58:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:58:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:58:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Plugin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:58:21 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Plugin: Test Cases/Utilities/Navigate to Plugin
+
+2021-02-04 13:58:21 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_plugin")): Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:58:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:58:22 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_profile")): Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:58:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:58:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:58:24 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete")): Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' is clicked on
+
+2021-02-04 13:58:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' is clicked on
+
+2021-02-04 13:58:24 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Deleting Custom Fields/del_confirm")): Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/del_confirm' is clicked on
+
+2021-02-04 13:58:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/del_confirm' is clicked on
+
+2021-02-04 13:58:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-04 13:58:25 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-04 13:58:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Deleting Custom Field' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Settings/COMPLEX/TC_CMPLX_016" time="80.529" classname="Test Cases/User Settings/COMPLEX/TC_CMPLX_016" status="PASSED">
+         <system-out><![CDATA[2021-02-04 13:58:25 - [TEST_CASE][PASSED] - Test Cases/User Settings/COMPLEX/TC_CMPLX_016: Test Cases/User Settings/COMPLEX/TC_CMPLX_016
+
+2021-02-04 13:58:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Add New Text Custom Field"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Add New Text Custom Field' successfully
+
+2021-02-04 13:58:26 - [TEST_CASE][PASSED] - Test Cases/Utilities/Add New Text Custom Field: Test Cases/Utilities/Add New Text Custom Field
+
+2021-02-04 13:58:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:58:26 - [TEST_CASE][PASSED] - Test Cases/Utilities/Admin Login: Test Cases/Utilities/Admin Login
+
+2021-02-04 13:58:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-04 13:58:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-04 13:58:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-04 13:58:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-04 13:58:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-04 13:58:31 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-04 13:58:31 - [TEST_STEP][PASSED] - navigateToUrl(admin_url): Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:58:32 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:58:32 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-02-04 13:58:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-04 13:58:32 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_username"), admin_username): Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:58:33 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:58:33 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_password"), admin_password): Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:58:34 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:58:34 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Login/button_login")): Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:58:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:58:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:58:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Plugin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:58:37 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Plugin: Test Cases/Utilities/Navigate to Plugin
+
+2021-02-04 13:58:37 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_plugin")): Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:58:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:58:38 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_profile")): Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:58:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:58:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:58:39 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field")): Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field' is clicked on
+
+2021-02-04 13:58:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field' is clicked on
+
+2021-02-04 13:58:40 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name"), "Sample Text Customfield"): Text 'Sample Text Customfield' is set on object 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name'
+
+2021-02-04 13:58:41 - [MESSAGE][PASSED] - Text 'Sample Text Customfield' is set on object 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name'
+
+2021-02-04 13:58:41 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails")): Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails' is clicked on
+
+2021-02-04 13:58:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails' is clicked on
+
+2021-02-04 13:58:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-04 13:58:42 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-04 13:58:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Add New Text Custom Field' successfully
+
+2021-02-04 13:58:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Buyer Settings"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Buyer Settings' successfully
+
+2021-02-04 13:58:42 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Buyer Settings: Test Cases/Utilities/Navigate to Buyer Settings
+
+2021-02-04 13:58:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-04 13:58:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-04 13:58:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-04 13:58:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-04 13:58:45 - [TEST_STEP][PASSED] - navigateToUrl("https://youhadmeathelloworld.arcadier.io/"): Navigate to 'https://youhadmeathelloworld.arcadier.io/' successfully
+
+2021-02-04 13:58:47 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.arcadier.io/' successfully
+
+2021-02-04 13:58:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-04 13:58:49 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-04 13:58:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/a_REGISTER  SIGN IN")): Object: 'Object Repository/User/a_REGISTER  SIGN IN' is clicked on
+
+2021-02-04 13:58:50 - [MESSAGE][PASSED] - Object: 'Object Repository/User/a_REGISTER  SIGN IN' is clicked on
+
+2021-02-04 13:58:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User/input_Your emailusername_username"), "athena"): Text 'athena' is set on object 'Object Repository/User/input_Your emailusername_username'
+
+2021-02-04 13:58:51 - [MESSAGE][PASSED] - Text 'athena' is set on object 'Object Repository/User/input_Your emailusername_username'
+
+2021-02-04 13:58:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/User/input_Your password_password"), "goxxgxvM2dP/z7G09p4JaTtn5QD+a0Kw"): Text ****** has been set on object 'Object Repository/User/input_Your password_password'
+
+2021-02-04 13:58:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/User/input_Your password_password'
+
+2021-02-04 13:58:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/input_Your password_login-submit")): Object: 'Object Repository/User/input_Your password_login-submit' is clicked on
+
+2021-02-04 13:58:54 - [MESSAGE][PASSED] - Object: 'Object Repository/User/input_Your password_login-submit' is clicked on
+
+2021-02-04 13:58:54 - [TEST_STEP][PASSED] - mouseOver(findTestObject("User/i_EN_icon icon-down")): Object: 'Object Repository/User/i_EN_icon icon-down' is hovered
+
+2021-02-04 13:58:55 - [MESSAGE][PASSED] - Object: 'Object Repository/User/i_EN_icon icon-down' is hovered
+
+2021-02-04 13:58:55 - [TEST_STEP][PASSED] - click(findTestObject("User/a_Settings")): Object: 'Object Repository/User/a_Settings' is clicked on
+
+2021-02-04 13:58:56 - [MESSAGE][PASSED] - Object: 'Object Repository/User/a_Settings' is clicked on
+
+2021-02-04 13:58:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Buyer Settings' successfully
+
+2021-02-04 13:58:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User/custom values/input_SAMPLE TEXT CUSTOMFIELD_Sample Text C_ce5c8c"), "customfield value"): Text 'customfield value' is set on object 'Object Repository/User/custom values/input_SAMPLE TEXT CUSTOMFIELD_Sample Text C_ce5c8c'
+
+2021-02-04 13:58:58 - [MESSAGE][PASSED] - Text 'customfield value' is set on object 'Object Repository/User/custom values/input_SAMPLE TEXT CUSTOMFIELD_Sample Text C_ce5c8c'
+
+2021-02-04 13:58:58 - [TEST_STEP][PASSED] - click(findTestObject("User/accept_cookies")): Object: 'Object Repository/User/accept_cookies' is clicked on
+
+2021-02-04 13:58:58 - [MESSAGE][PASSED] - Object: 'Object Repository/User/accept_cookies' is clicked on
+
+2021-02-04 13:58:58 - [TEST_STEP][PASSED] - click(findTestObject("User/custom values/a_NEXT")): Object: 'Object Repository/User/custom values/a_NEXT' is clicked on
+
+2021-02-04 13:58:59 - [MESSAGE][PASSED] - Object: 'Object Repository/User/custom values/a_NEXT' is clicked on
+
+2021-02-04 13:58:59 - [TEST_STEP][PASSED] - click(findTestObject("User/custom values/a_SAVE")): Object: 'Object Repository/User/custom values/a_SAVE' is clicked on
+
+2021-02-04 13:59:01 - [MESSAGE][PASSED] - Object: 'Object Repository/User/custom values/a_SAVE' is clicked on
+
+2021-02-04 13:59:01 - [TEST_STEP][PASSED] - mouseOver(findTestObject("User/i_EN_icon icon-down")): Object: 'Object Repository/User/i_EN_icon icon-down' is hovered
+
+2021-02-04 13:59:02 - [MESSAGE][PASSED] - Object: 'Object Repository/User/i_EN_icon icon-down' is hovered
+
+2021-02-04 13:59:02 - [TEST_STEP][PASSED] - click(findTestObject("User/a_Settings")): Object: 'Object Repository/User/a_Settings' is clicked on
+
+2021-02-04 13:59:03 - [MESSAGE][PASSED] - Object: 'Object Repository/User/a_Settings' is clicked on
+
+2021-02-04 13:59:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User/custom values/input_SAMPLE TEXT CUSTOMFIELD_Sample Text C_ce5c8c"), "customfield value edited"): Text 'customfield value edited' is set on object 'Object Repository/User/custom values/input_SAMPLE TEXT CUSTOMFIELD_Sample Text C_ce5c8c'
+
+2021-02-04 13:59:05 - [MESSAGE][PASSED] - Text 'customfield value edited' is set on object 'Object Repository/User/custom values/input_SAMPLE TEXT CUSTOMFIELD_Sample Text C_ce5c8c'
+
+2021-02-04 13:59:05 - [TEST_STEP][PASSED] - click(findTestObject("User/custom values/a_NEXT")): Object: 'Object Repository/User/custom values/a_NEXT' is clicked on
+
+2021-02-04 13:59:05 - [MESSAGE][PASSED] - Object: 'Object Repository/User/custom values/a_NEXT' is clicked on
+
+2021-02-04 13:59:05 - [TEST_STEP][PASSED] - click(findTestObject("User/custom values/a_SAVE")): Object: 'Object Repository/User/custom values/a_SAVE' is clicked on
+
+2021-02-04 13:59:07 - [MESSAGE][PASSED] - Object: 'Object Repository/User/custom values/a_SAVE' is clicked on
+
+2021-02-04 13:59:07 - [TEST_STEP][PASSED] - mouseOver(findTestObject("User/i_EN_icon icon-down")): Object: 'Object Repository/User/i_EN_icon icon-down' is hovered
+
+2021-02-04 13:59:08 - [MESSAGE][PASSED] - Object: 'Object Repository/User/i_EN_icon icon-down' is hovered
+
+2021-02-04 13:59:08 - [TEST_STEP][PASSED] - click(findTestObject("User/a_Settings")): Object: 'Object Repository/User/a_Settings' is clicked on
+
+2021-02-04 13:59:09 - [MESSAGE][PASSED] - Object: 'Object Repository/User/a_Settings' is clicked on
+
+2021-02-04 13:59:09 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("User/custom values/input_SAMPLE TEXT CUSTOMFIELD_Sample Text C_ce5c8c"), "value", "customfield value edited", 0): Object 'Object Repository/User/custom values/input_SAMPLE TEXT CUSTOMFIELD_Sample Text C_ce5c8c' has attribute 'value' with value 'customfield value edited'
+
+2021-02-04 13:59:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-02-04 13:59:10 - [MESSAGE][PASSED] - Object 'Object Repository/User/custom values/input_SAMPLE TEXT CUSTOMFIELD_Sample Text C_ce5c8c' has attribute 'value' with value 'customfield value edited'
+
+2021-02-04 13:59:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-04 13:59:11 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-04 13:59:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Deleting Custom Field"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Deleting Custom Field' successfully
+
+2021-02-04 13:59:11 - [TEST_CASE][PASSED] - Test Cases/Utilities/Deleting Custom Field: Test Cases/Utilities/Deleting Custom Field
+
+2021-02-04 13:59:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:59:11 - [TEST_CASE][PASSED] - Test Cases/Utilities/Admin Login: Test Cases/Utilities/Admin Login
+
+2021-02-04 13:59:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-04 13:59:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-04 13:59:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-04 13:59:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-04 13:59:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-04 13:59:16 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-04 13:59:16 - [TEST_STEP][PASSED] - navigateToUrl(admin_url): Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:59:18 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-02-04 13:59:18 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-02-04 13:59:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-04 13:59:18 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_username"), admin_username): Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:59:19 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-02-04 13:59:19 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_password"), admin_password): Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:59:19 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-02-04 13:59:19 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Login/button_login")): Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:59:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-02-04 13:59:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-02-04 13:59:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Plugin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:59:41 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Plugin: Test Cases/Utilities/Navigate to Plugin
+
+2021-02-04 13:59:41 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_plugin")): Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:59:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-02-04 13:59:42 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_profile")): Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:59:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-02-04 13:59:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-02-04 13:59:44 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete")): Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' is clicked on
+
+2021-02-04 13:59:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' is clicked on
+
+2021-02-04 13:59:45 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Deleting Custom Fields/del_confirm")): Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/del_confirm' is clicked on
+
+2021-02-04 13:59:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/del_confirm' is clicked on
+
+2021-02-04 13:59:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-04 13:59:46 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-04 13:59:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Deleting Custom Field' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-02-04 13:51:55 - [TEST_SUITE][PASSED] - User Settings: Test Cases/User Settings/COMPLEX/TC_CMPLX_016]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

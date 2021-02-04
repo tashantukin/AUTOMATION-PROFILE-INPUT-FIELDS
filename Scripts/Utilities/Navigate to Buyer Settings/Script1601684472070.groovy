@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://youhadmeathelloworld.staging.arcadier.io/')
+WebUI.navigateToUrl('https://youhadmeathelloworld.arcadier.io/')
 
 WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/User/a_REGISTER  SIGN IN'))
 
-WebUI.setText(findTestObject('Object Repository/User/input_Your emailusername_username'), 'buyer1')
+WebUI.setText(findTestObject('Object Repository/User/input_Your emailusername_username'), 'athena')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/User/input_Your password_password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/User/input_Your password_password'), 'goxxgxvM2dP/z7G09p4JaTtn5QD+a0Kw')
 
 WebUI.click(findTestObject('Object Repository/User/input_Your password_login-submit'))
 

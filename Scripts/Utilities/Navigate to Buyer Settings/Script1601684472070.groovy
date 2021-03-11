@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://youhadmeathelloworld.arcadier.io/')
+WebUI.navigateToUrl('https://youhadmeathelloworld.staging.arcadier.io/')
 
 WebUI.maximizeWindow()
 

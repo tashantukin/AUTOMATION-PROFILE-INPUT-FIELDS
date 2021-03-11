@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Header" time="27.268" tests="9" failures="0" errors="0">
+   <testsuite name="Header" tests="9" failures="0" errors="0" time="27.268" timestamp="2021-03-09 08:46:18" hostname="Natasha - Natasha-PC" id="Test Suites/Admin Plugin Page/Header">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\GITHUB\\automation_profile_input\\Reports\\20210309_084602\\Admin Plugin Page\\Header\\20210309_084602"/>
+         <property name="logFiles" value="D:\\GITHUB\\automation_profile_input\\Reports\\20210309_084602\\Admin Plugin Page\\Header\\20210309_084602\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Natasha - Natasha-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 88.0.4324.190"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="682b15bb43cf26a0889c34c9bd24036d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Utilities/Admin Login" time="15.787" classname="Test Cases/Utilities/Admin Login" status="PASSED">
+         <system-out><![CDATA[2021-03-09 08:46:18 - [TEST_CASE][PASSED] - Test Cases/Utilities/Admin Login: Test Cases/Utilities/Admin Login
+
+2021-03-09 08:46:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-09 08:46:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-09 08:46:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-09 08:46:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-09 08:46:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-09 08:46:25 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-09 08:46:25 - [TEST_STEP][PASSED] - navigateToUrl(admin_url): Navigate to 'https://youhadmeathelloworld.staging.arcadier.io/admin' successfully
+
+2021-03-09 08:46:28 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.staging.arcadier.io/admin' successfully
+
+2021-03-09 08:46:28 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-03-09 08:46:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-09 08:46:28 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_username"), admin_username): Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-03-09 08:46:29 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-03-09 08:46:29 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_password"), admin_password): Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-03-09 08:46:29 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-03-09 08:46:29 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Login/button_login")): Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-03-09 08:46:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Utilities/Navigate to Plugin" time="8.113" classname="Test Cases/Utilities/Navigate to Plugin" status="PASSED">
+         <system-out><![CDATA[2021-03-09 08:46:34 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Plugin: Test Cases/Utilities/Navigate to Plugin
+
+2021-03-09 08:46:34 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_plugin")): Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-03-09 08:46:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-03-09 08:46:35 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_profile")): Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-03-09 08:46:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Plugin Header/TC_UI_001" time="0.426" classname="Test Cases/Admin Page/UI/Plugin Header/TC_UI_001" status="PASSED">
+         <system-out><![CDATA[2021-03-09 08:46:42 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Plugin Header/TC_UI_001: Test Cases/Admin Page/UI/Plugin Header/TC_UI_001
+
+2021-03-09 08:46:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin/Plugin Page/Header/header_icon"), 0): Object 'Object Repository/Admin/Plugin Page/Header/header_icon' is present
+
+2021-03-09 08:46:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-09 08:46:43 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Header/header_icon' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Plugin Header/TC_UI_002" time="0.413" classname="Test Cases/Admin Page/UI/Plugin Header/TC_UI_002" status="PASSED">
+         <system-out><![CDATA[2021-03-09 08:46:43 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Plugin Header/TC_UI_002: Test Cases/Admin Page/UI/Plugin Header/TC_UI_002
+
+2021-03-09 08:46:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin/Plugin Page/Header/header_label"), 0): Object 'Object Repository/Admin/Plugin Page/Header/header_label' is present
+
+2021-03-09 08:46:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-09 08:46:43 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Header/header_label' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Plugin Header/TC_UI_003" time="0.354" classname="Test Cases/Admin Page/UI/Plugin Header/TC_UI_003" status="PASSED">
+         <system-out><![CDATA[2021-03-09 08:46:43 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Plugin Header/TC_UI_003: Test Cases/Admin Page/UI/Plugin Header/TC_UI_003
+
+2021-03-09 08:46:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Admin/Plugin Page/Header/header_label"), "Profile Input Fields v2"): Actual text and expected text of test object 'Object Repository/Admin/Plugin Page/Header/header_label' are matched.
+
+2021-03-09 08:46:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Admin/Plugin Page/Header/header_label' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Plugin Header/TC_UI_004" time="0.365" classname="Test Cases/Admin Page/UI/Plugin Header/TC_UI_004" status="PASSED">
+         <system-out><![CDATA[2021-03-09 08:46:43 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Plugin Header/TC_UI_004: Test Cases/Admin Page/UI/Plugin Header/TC_UI_004
+
+2021-03-09 08:46:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin/Plugin Page/Header/link_context"), 0): Object 'Object Repository/Admin/Plugin Page/Header/link_context' is present
+
+2021-03-09 08:46:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-09 08:46:44 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Header/link_context' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Plugin Header/TC_UI_005" time="0.094" classname="Test Cases/Admin Page/UI/Plugin Header/TC_UI_005" status="PASSED">
+         <system-out><![CDATA[2021-03-09 08:46:44 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Plugin Header/TC_UI_005: Test Cases/Admin Page/UI/Plugin Header/TC_UI_005
+
+2021-03-09 08:46:44 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Plugin Header/TC_UI_006" time="0.388" classname="Test Cases/Admin Page/UI/Plugin Header/TC_UI_006" status="PASSED">
+         <system-out><![CDATA[2021-03-09 08:46:44 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Plugin Header/TC_UI_006: Test Cases/Admin Page/UI/Plugin Header/TC_UI_006
+
+2021-03-09 08:46:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Admin/Plugin Page/Header/link_context"), "How to use this Plug-In?"): Actual text and expected text of test object 'Object Repository/Admin/Plugin Page/Header/link_context' are matched.
+
+2021-03-09 08:46:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Admin/Plugin Page/Header/link_context' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Plugin Header/TC_UI_007" time="0.405" classname="Test Cases/Admin Page/UI/Plugin Header/TC_UI_007" status="PASSED">
+         <system-out><![CDATA[2021-03-09 08:46:44 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Plugin Header/TC_UI_007: Test Cases/Admin Page/UI/Plugin Header/TC_UI_007
+
+2021-03-09 08:46:44 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Admin/Plugin Page/Header/link_context")): Object 'Object Repository/Admin/Plugin Page/Header/link_context' is clickable
+
+2021-03-09 08:46:45 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Header/link_context' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-03-09 08:46:18 - [TEST_SUITE][PASSED] - Header: Test Cases/Admin Page/UI/Plugin Header/TC_UI_007]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

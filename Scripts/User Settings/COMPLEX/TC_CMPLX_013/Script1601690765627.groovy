@@ -20,6 +20,8 @@ WebUI.callTestCase(findTestCase('Utilities/Edit Custom Field'), [:], FailureHand
 
 WebUI.callTestCase(findTestCase('Utilities/Navigate to Buyer Settings'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.refresh()
+
 WebUI.verifyElementPresent(findTestObject('User/label_SAMPLE CUSTOM FIELD EDITED'), 0)
 
 WebUI.verifyElementText(findTestObject('User/label_SAMPLE CUSTOM FIELD EDITED'), 'SAMPLE CUSTOM FIELD EDITED')

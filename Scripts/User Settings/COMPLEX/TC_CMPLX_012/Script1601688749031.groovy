@@ -20,6 +20,8 @@ WebUI.callTestCase(findTestCase('Utilities/Add Customfield Dropdown'), [:], Fail
 
 WebUI.callTestCase(findTestCase('Utilities/Navigate to Buyer Settings'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.refresh()
+
 WebUI.verifyElementPresent(findTestObject('User/label_SAMPLE CUSTOMFIELD DROPDOWN'), 0)
 
 WebUI.verifyElementText(findTestObject('User/label_SAMPLE CUSTOMFIELD CHECKBOX'), 'SAMPLE CUSTOMFIELD DROPDOWN')

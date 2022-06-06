@@ -22,5 +22,7 @@ WebUI.callTestCase(findTestCase('Utilities/Deleting Custom Field'), [:], Failure
 
 WebUI.callTestCase(findTestCase('Utilities/Navigate to Buyer Settings'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.refresh()
+
 WebUI.verifyElementNotPresent(findTestObject('User/input_SAMPLE TEXT CUSTOMFIELD_Sample Text Customfield'), 0)
 

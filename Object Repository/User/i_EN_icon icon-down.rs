@@ -6,32 +6,36 @@
    <elementGuidId>b23c677c-b367-410b-be66-a7843593954c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>i.icon.icon-down</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='videoBannerBG']/div/div/div[2]/div/ul/li[5]/a/i</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>i.icon.icon-down</value>
+         <key>BASIC</key>
+         <value>//i[@class = 'icon icon-down']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>icon icon-down</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

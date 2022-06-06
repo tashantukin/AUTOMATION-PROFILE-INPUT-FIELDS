@@ -20,6 +20,8 @@ WebUI.callTestCase(findTestCase('Utilities/Add new Number customfield'), [:], Fa
 
 WebUI.callTestCase(findTestCase('Utilities/Navigate to Buyer Settings'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.refresh()
+
 WebUI.verifyElementPresent(findTestObject('User/label_SAMPLE CUSTOMFIELD NUMBER'), 0)
 
 WebUI.verifyElementText(findTestObject('User/label_SAMPLE CUSTOMFIELD NUMBER'), 'SAMPLE CUSTOMFIELD NUMBER')

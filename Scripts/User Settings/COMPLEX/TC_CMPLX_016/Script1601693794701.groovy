@@ -20,6 +20,8 @@ WebUI.callTestCase(findTestCase('Utilities/Add New Text Custom Field'), [:], Fai
 
 WebUI.callTestCase(findTestCase('Utilities/Navigate to Buyer Settings'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.refresh()
+
 WebUI.setText(findTestObject('Object Repository/User/custom values/input_SAMPLE TEXT CUSTOMFIELD_Sample Text C_ce5c8c'), 
     'customfield value')
 

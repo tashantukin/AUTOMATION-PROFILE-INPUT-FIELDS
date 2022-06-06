@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User Settings" time="95.717" tests="2" failures="1" errors="0">
+   <testsuite name="User Settings" tests="2" failures="1" errors="0" time="95.717" timestamp="2021-04-20 09:23:48" hostname="Natasha - 192.168.254.102" id="Test Suites/User Settings">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\GITHUB\\automation_profile_input\\Reports\\20210420_092341\\User Settings\\20210420_092341"/>
+         <property name="logFiles" value="D:\\GITHUB\\automation_profile_input\\Reports\\20210420_092341\\User Settings\\20210420_092341\\execution0.log"/>
+         <property name="attachments" value="D:\\GITHUB\\automation_profile_input\\Reports\\20210420_092341\\User Settings\\20210420_092341\\1618881922343.png, D:\\GITHUB\\automation_profile_input\\Reports\\20210420_092341\\User Settings\\20210420_092341\\1618881922677.png"/>
+         <property name="hostName" value="Natasha - 192.168.254.102"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 89.0.4389.128"/>
+         <property name="hostAddress" value="192.168.254.102"/>
+         <property name="sessionId" value="227ec196776fbd2e726eb8ff24d8813d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User Settings/COMPLEX/TC_CMPLX_009" time="58.403" classname="Test Cases/User Settings/COMPLEX/TC_CMPLX_009" status="PASSED">
+         <system-out><![CDATA[2021-04-20 09:23:48 - [TEST_CASE][PASSED] - Test Cases/User Settings/COMPLEX/TC_CMPLX_009: Test Cases/User Settings/COMPLEX/TC_CMPLX_009
+
+2021-04-20 09:23:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Add New Text Custom Field"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Add New Text Custom Field' successfully
+
+2021-04-20 09:23:48 - [TEST_CASE][PASSED] - Test Cases/Utilities/Add New Text Custom Field: Test Cases/Utilities/Add New Text Custom Field
+
+2021-04-20 09:23:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-04-20 09:23:49 - [TEST_CASE][PASSED] - Test Cases/Utilities/Admin Login: Test Cases/Utilities/Admin Login
+
+2021-04-20 09:23:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-04-20 09:23:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-04-20 09:23:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-04-20 09:23:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-04-20 09:23:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-04-20 09:23:51 - [MESSAGE][PASSED] - Current window maximized
+
+2021-04-20 09:23:51 - [TEST_STEP][PASSED] - navigateToUrl(admin_url): Navigate to 'https://youhadmeathelloworld.staging.arcadier.io/admin' successfully
+
+2021-04-20 09:23:53 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.staging.arcadier.io/admin' successfully
+
+2021-04-20 09:23:53 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-04-20 09:23:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-04-20 09:23:53 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_username"), admin_username): Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-04-20 09:23:55 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-04-20 09:23:55 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_password"), admin_password): Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-04-20 09:23:55 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-04-20 09:23:55 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Login/button_login")): Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-04-20 09:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-04-20 09:24:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-04-20 09:24:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Plugin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-04-20 09:24:03 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Plugin: Test Cases/Utilities/Navigate to Plugin
+
+2021-04-20 09:24:03 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_plugin")): Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-04-20 09:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-04-20 09:24:04 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_profile")): Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-04-20 09:24:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-04-20 09:24:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-04-20 09:24:06 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field")): Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field' is clicked on
+
+2021-04-20 09:24:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field' is clicked on
+
+2021-04-20 09:24:06 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name"), "Sample Text Customfield"): Text 'Sample Text Customfield' is set on object 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name'
+
+2021-04-20 09:24:07 - [MESSAGE][PASSED] - Text 'Sample Text Customfield' is set on object 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name'
+
+2021-04-20 09:24:07 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails")): Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails' is clicked on
+
+2021-04-20 09:24:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails' is clicked on
+
+2021-04-20 09:24:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-04-20 09:24:08 - [MESSAGE][PASSED] - Browser is closed
+
+2021-04-20 09:24:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Add New Text Custom Field' successfully
+
+2021-04-20 09:24:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Buyer Settings"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Buyer Settings' successfully
+
+2021-04-20 09:24:08 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Buyer Settings: Test Cases/Utilities/Navigate to Buyer Settings
+
+2021-04-20 09:24:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-04-20 09:24:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-04-20 09:24:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-04-20 09:24:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-04-20 09:24:10 - [TEST_STEP][PASSED] - navigateToUrl("https://youhadmeathelloworld.arcadier.io/"): Navigate to 'https://youhadmeathelloworld.arcadier.io/' successfully
+
+2021-04-20 09:24:13 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.arcadier.io/' successfully
+
+2021-04-20 09:24:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-04-20 09:24:13 - [MESSAGE][PASSED] - Current window maximized
+
+2021-04-20 09:24:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/a_REGISTER  SIGN IN")): Object: 'Object Repository/User/a_REGISTER  SIGN IN' is clicked on
+
+2021-04-20 09:24:15 - [MESSAGE][PASSED] - Object: 'Object Repository/User/a_REGISTER  SIGN IN' is clicked on
+
+2021-04-20 09:24:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User/input_Your emailusername_username"), "athena"): Text 'athena' is set on object 'Object Repository/User/input_Your emailusername_username'
+
+2021-04-20 09:24:16 - [MESSAGE][PASSED] - Text 'athena' is set on object 'Object Repository/User/input_Your emailusername_username'
+
+2021-04-20 09:24:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/User/input_Your password_password"), "goxxgxvM2dP/z7G09p4JaTtn5QD+a0Kw"): Text ****** has been set on object 'Object Repository/User/input_Your password_password'
+
+2021-04-20 09:24:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/User/input_Your password_password'
+
+2021-04-20 09:24:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/input_Your password_login-submit")): Object: 'Object Repository/User/input_Your password_login-submit' is clicked on
+
+2021-04-20 09:24:19 - [MESSAGE][PASSED] - Object: 'Object Repository/User/input_Your password_login-submit' is clicked on
+
+2021-04-20 09:24:19 - [TEST_STEP][PASSED] - mouseOver(findTestObject("User/i_EN_icon icon-down")): Object: 'Object Repository/User/i_EN_icon icon-down' is hovered
+
+2021-04-20 09:24:21 - [MESSAGE][PASSED] - Object: 'Object Repository/User/i_EN_icon icon-down' is hovered
+
+2021-04-20 09:24:21 - [TEST_STEP][PASSED] - click(findTestObject("User/a_Settings")): Object: 'Object Repository/User/a_Settings' is clicked on
+
+2021-04-20 09:24:22 - [MESSAGE][PASSED] - Object: 'Object Repository/User/a_Settings' is clicked on
+
+2021-04-20 09:24:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Buyer Settings' successfully
+
+2021-04-20 09:24:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("User/label_SAMPLE TEXT CUSTOMFIELD"), 0): Object 'Object Repository/User/label_SAMPLE TEXT CUSTOMFIELD' is present
+
+2021-04-20 09:24:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-20 09:24:23 - [MESSAGE][PASSED] - Object 'Object Repository/User/label_SAMPLE TEXT CUSTOMFIELD' is present
+
+2021-04-20 09:24:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("User/label_SAMPLE TEXT CUSTOMFIELD"), "SAMPLE TEXT CUSTOMFIELD"): Actual text and expected text of test object 'Object Repository/User/label_SAMPLE TEXT CUSTOMFIELD' are matched.
+
+2021-04-20 09:24:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/label_SAMPLE TEXT CUSTOMFIELD' are matched.
+
+2021-04-20 09:24:23 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("User/input_SAMPLE TEXT CUSTOMFIELD_Sample Text Customfield"), "type", "text", 0): Object 'Object Repository/User/input_SAMPLE TEXT CUSTOMFIELD_Sample Text Customfield' has attribute 'type' with value 'text'
+
+2021-04-20 09:24:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-20 09:24:24 - [MESSAGE][PASSED] - Object 'Object Repository/User/input_SAMPLE TEXT CUSTOMFIELD_Sample Text Customfield' has attribute 'type' with value 'text'
+
+2021-04-20 09:24:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Deleting Custom Field"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Deleting Custom Field' successfully
+
+2021-04-20 09:24:24 - [TEST_CASE][PASSED] - Test Cases/Utilities/Deleting Custom Field: Test Cases/Utilities/Deleting Custom Field
+
+2021-04-20 09:24:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-04-20 09:24:24 - [TEST_CASE][PASSED] - Test Cases/Utilities/Admin Login: Test Cases/Utilities/Admin Login
+
+2021-04-20 09:24:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-04-20 09:24:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-04-20 09:24:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-04-20 09:24:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-04-20 09:24:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-04-20 09:24:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-04-20 09:24:26 - [MESSAGE][PASSED] - Current window maximized
+
+2021-04-20 09:24:26 - [TEST_STEP][PASSED] - navigateToUrl(admin_url): Navigate to 'https://youhadmeathelloworld.staging.arcadier.io/admin' successfully
+
+2021-04-20 09:24:29 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.staging.arcadier.io/admin' successfully
+
+2021-04-20 09:24:29 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-04-20 09:24:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-04-20 09:24:29 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_username"), admin_username): Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-04-20 09:24:30 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-04-20 09:24:30 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_password"), admin_password): Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-04-20 09:24:30 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-04-20 09:24:30 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Login/button_login")): Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-04-20 09:24:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-04-20 09:24:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-04-20 09:24:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Plugin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-04-20 09:24:41 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Plugin: Test Cases/Utilities/Navigate to Plugin
+
+2021-04-20 09:24:41 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_plugin")): Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-04-20 09:24:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-04-20 09:24:42 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_profile")): Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-04-20 09:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-04-20 09:24:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-04-20 09:24:44 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete")): Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' is clicked on
+
+2021-04-20 09:24:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/i_Textfield_icon icon-delete' is clicked on
+
+2021-04-20 09:24:45 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Deleting Custom Fields/del_confirm")): Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/del_confirm' is clicked on
+
+2021-04-20 09:24:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Deleting Custom Fields/del_confirm' is clicked on
+
+2021-04-20 09:24:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-04-20 09:24:46 - [MESSAGE][PASSED] - Browser is closed
+
+2021-04-20 09:24:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Deleting Custom Field' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Settings/COMPLEX/TC_CMPLX_010" time="36.215" classname="Test Cases/User Settings/COMPLEX/TC_CMPLX_010" status="FAILED">
+         <failure type="FAILED" message="Test Cases/User Settings/COMPLEX/TC_CMPLX_010 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/User/label_SAMPLE CUSTOMFIELD NUMBER' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$9.call(Unknown Source)
+	at TC_CMPLX_010.run(TC_CMPLX_010:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1618881821456.run(TempTestSuite1618881821456.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'SAMPLE TEXT CUSTOMFIELD' and expected text 'SAMPLE CUSTOMFIELD NUMBER' of test object 'Object Repository/User/label_SAMPLE CUSTOMFIELD NUMBER' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-04-20 09:24:46 - [TEST_CASE][FAILED] - Test Cases/User Settings/COMPLEX/TC_CMPLX_010: Test Cases/User Settings/COMPLEX/TC_CMPLX_010 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/User/label_SAMPLE CUSTOMFIELD NUMBER' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$9.call(Unknown Source)
+	at TC_CMPLX_010.run(TC_CMPLX_010:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1618881821456.run(TempTestSuite1618881821456.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'SAMPLE TEXT CUSTOMFIELD' and expected text 'SAMPLE CUSTOMFIELD NUMBER' of test object 'Object Repository/User/label_SAMPLE CUSTOMFIELD NUMBER' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-04-20 09:24:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Add new Number customfield"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Add new Number customfield' successfully
+
+2021-04-20 09:24:47 - [TEST_CASE][PASSED] - Test Cases/Utilities/Add new Number customfield: Test Cases/Utilities/Add new Number customfield
+
+2021-04-20 09:24:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-04-20 09:24:47 - [TEST_CASE][PASSED] - Test Cases/Utilities/Admin Login: Test Cases/Utilities/Admin Login
+
+2021-04-20 09:24:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-04-20 09:24:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-04-20 09:24:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-04-20 09:24:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-04-20 09:24:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-04-20 09:24:48 - [MESSAGE][PASSED] - Current window maximized
+
+2021-04-20 09:24:48 - [TEST_STEP][PASSED] - navigateToUrl(admin_url): Navigate to 'https://youhadmeathelloworld.staging.arcadier.io/admin' successfully
+
+2021-04-20 09:24:50 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.staging.arcadier.io/admin' successfully
+
+2021-04-20 09:24:50 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-04-20 09:24:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-04-20 09:24:50 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_username"), admin_username): Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-04-20 09:24:51 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-04-20 09:24:51 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_password"), admin_password): Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-04-20 09:24:52 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-04-20 09:24:52 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Login/button_login")): Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-04-20 09:25:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-04-20 09:25:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Admin Login' successfully
+
+2021-04-20 09:25:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Plugin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-04-20 09:25:00 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Plugin: Test Cases/Utilities/Navigate to Plugin
+
+2021-04-20 09:25:00 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_plugin")): Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-04-20 09:25:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-04-20 09:25:01 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_profile")): Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-04-20 09:25:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-04-20 09:25:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Plugin' successfully
+
+2021-04-20 09:25:03 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field")): Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field' is clicked on
+
+2021-04-20 09:25:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/a_Add Profile Input Field' is clicked on
+
+2021-04-20 09:25:04 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name"), "Sample Customfield Number"): Text 'Sample Customfield Number' is set on object 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name'
+
+2021-04-20 09:25:05 - [MESSAGE][PASSED] - Text 'Sample Customfield Number' is set on object 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Custom Field Name_custom_name'
+
+2021-04-20 09:25:05 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Admin/Plugin Page/Add New Text CF/select_Text                                _e22ab6"), "number", true): All options with value 'number' are selected in object 'Object Repository/Admin/Plugin Page/Add New Text CF/select_Text                                _e22ab6'  using regular expression
+
+2021-04-20 09:25:06 - [MESSAGE][PASSED] - All options with value 'number' are selected in object 'Object Repository/Admin/Plugin Page/Add New Text CF/select_Text                                _e22ab6'  using regular expression
+
+2021-04-20 09:25:06 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails")): Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails' is clicked on
+
+2021-04-20 09:25:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Add New Text CF/input_Add Option_saveCustomDetails' is clicked on
+
+2021-04-20 09:25:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-04-20 09:25:07 - [MESSAGE][PASSED] - Browser is closed
+
+2021-04-20 09:25:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Add new Number customfield' successfully
+
+2021-04-20 09:25:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Navigate to Buyer Settings"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Navigate to Buyer Settings' successfully
+
+2021-04-20 09:25:07 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Buyer Settings: Test Cases/Utilities/Navigate to Buyer Settings
+
+2021-04-20 09:25:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-04-20 09:25:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-04-20 09:25:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-04-20 09:25:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-04-20 09:25:08 - [TEST_STEP][PASSED] - navigateToUrl("https://youhadmeathelloworld.arcadier.io/"): Navigate to 'https://youhadmeathelloworld.arcadier.io/' successfully
+
+2021-04-20 09:25:13 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.arcadier.io/' successfully
+
+2021-04-20 09:25:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-04-20 09:25:13 - [MESSAGE][PASSED] - Current window maximized
+
+2021-04-20 09:25:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/a_REGISTER  SIGN IN")): Object: 'Object Repository/User/a_REGISTER  SIGN IN' is clicked on
+
+2021-04-20 09:25:15 - [MESSAGE][PASSED] - Object: 'Object Repository/User/a_REGISTER  SIGN IN' is clicked on
+
+2021-04-20 09:25:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User/input_Your emailusername_username"), "athena"): Text 'athena' is set on object 'Object Repository/User/input_Your emailusername_username'
+
+2021-04-20 09:25:16 - [MESSAGE][PASSED] - Text 'athena' is set on object 'Object Repository/User/input_Your emailusername_username'
+
+2021-04-20 09:25:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/User/input_Your password_password"), "goxxgxvM2dP/z7G09p4JaTtn5QD+a0Kw"): Text ****** has been set on object 'Object Repository/User/input_Your password_password'
+
+2021-04-20 09:25:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/User/input_Your password_password'
+
+2021-04-20 09:25:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/input_Your password_login-submit")): Object: 'Object Repository/User/input_Your password_login-submit' is clicked on
+
+2021-04-20 09:25:18 - [MESSAGE][PASSED] - Object: 'Object Repository/User/input_Your password_login-submit' is clicked on
+
+2021-04-20 09:25:18 - [TEST_STEP][PASSED] - mouseOver(findTestObject("User/i_EN_icon icon-down")): Object: 'Object Repository/User/i_EN_icon icon-down' is hovered
+
+2021-04-20 09:25:20 - [MESSAGE][PASSED] - Object: 'Object Repository/User/i_EN_icon icon-down' is hovered
+
+2021-04-20 09:25:20 - [TEST_STEP][PASSED] - click(findTestObject("User/a_Settings")): Object: 'Object Repository/User/a_Settings' is clicked on
+
+2021-04-20 09:25:21 - [MESSAGE][PASSED] - Object: 'Object Repository/User/a_Settings' is clicked on
+
+2021-04-20 09:25:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Navigate to Buyer Settings' successfully
+
+2021-04-20 09:25:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("User/label_SAMPLE CUSTOMFIELD NUMBER"), 0): Object 'Object Repository/User/label_SAMPLE CUSTOMFIELD NUMBER' is present
+
+2021-04-20 09:25:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-20 09:25:21 - [MESSAGE][PASSED] - Object 'Object Repository/User/label_SAMPLE CUSTOMFIELD NUMBER' is present
+
+2021-04-20 09:25:21 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("User/label_SAMPLE CUSTOMFIELD NUMBER"), "SAMPLE CUSTOMFIELD NUMBER"): Verify element text of test object 'Object Repository/User/label_SAMPLE CUSTOMFIELD NUMBER' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/User/label_SAMPLE CUSTOMFIELD NUMBER' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$9.call(Unknown Source)
+	at TC_CMPLX_010.run(TC_CMPLX_010:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1618881821456.run(TempTestSuite1618881821456.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'SAMPLE TEXT CUSTOMFIELD' and expected text 'SAMPLE CUSTOMFIELD NUMBER' of test object 'Object Repository/User/label_SAMPLE CUSTOMFIELD NUMBER' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-04-20 09:25:22 - [MESSAGE][FAILED] - Actual text 'SAMPLE TEXT CUSTOMFIELD' and expected text 'SAMPLE CUSTOMFIELD NUMBER' of test object 'Object Repository/User/label_SAMPLE CUSTOMFIELD NUMBER' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'SAMPLE TEXT CUSTOMFIELD' and expected text 'SAMPLE CUSTOMFIELD NUMBER' of test object 'Object Repository/User/label_SAMPLE CUSTOMFIELD NUMBER' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$9.call(Unknown Source)
+	at TC_CMPLX_010.run(TC_CMPLX_010:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1618881821456.run(TempTestSuite1618881821456.groovy:39)
+)
+[[ATTACHMENT|D:\\GITHUB\\automation_profile_input\\Reports\\20210420_092341\\User Settings\\20210420_092341\\1618881922343.png]]
+
+2021-04-20 09:25:23 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/User/label_SAMPLE CUSTOMFIELD NUMBER' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/User/label_SAMPLE CUSTOMFIELD NUMBER' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$9.call(Unknown Source)
+	at TC_CMPLX_010.run(TC_CMPLX_010:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1618881821456.run(TempTestSuite1618881821456.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'SAMPLE TEXT CUSTOMFIELD' and expected text 'SAMPLE CUSTOMFIELD NUMBER' of test object 'Object Repository/User/label_SAMPLE CUSTOMFIELD NUMBER' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|D:\\GITHUB\\automation_profile_input\\Reports\\20210420_092341\\User Settings\\20210420_092341\\1618881922677.png]]]]></system-out>
+         <system-err><![CDATA[2021-04-20 09:24:46 - [TEST_CASE][FAILED] - Test Cases/User Settings/COMPLEX/TC_CMPLX_010: Test Cases/User Settings/COMPLEX/TC_CMPLX_010 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/User/label_SAMPLE CUSTOMFIELD NUMBER' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$9.call(Unknown Source)
+	at TC_CMPLX_010.run(TC_CMPLX_010:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1618881821456.run(TempTestSuite1618881821456.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'SAMPLE TEXT CUSTOMFIELD' and expected text 'SAMPLE CUSTOMFIELD NUMBER' of test object 'Object Repository/User/label_SAMPLE CUSTOMFIELD NUMBER' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-04-20 09:23:48 - [TEST_SUITE][FAILED] - User Settings: Test Cases/User Settings/COMPLEX/TC_CMPLX_010 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/User/label_SAMPLE CUSTOMFIELD NUMBER' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$9.call(Unknown Source)
+	at TC_CMPLX_010.run(TC_CMPLX_010:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1618881821456.run(TempTestSuite1618881821456.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'SAMPLE TEXT CUSTOMFIELD' and expected text 'SAMPLE CUSTOMFIELD NUMBER' of test object 'Object Repository/User/label_SAMPLE CUSTOMFIELD NUMBER' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-04-20 09:23:48 - [TEST_SUITE][FAILED] - User Settings: Test Cases/User Settings/COMPLEX/TC_CMPLX_010 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/User/label_SAMPLE CUSTOMFIELD NUMBER' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$9.call(Unknown Source)
+	at TC_CMPLX_010.run(TC_CMPLX_010:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1618881821456.run(TempTestSuite1618881821456.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'SAMPLE TEXT CUSTOMFIELD' and expected text 'SAMPLE CUSTOMFIELD NUMBER' of test object 'Object Repository/User/label_SAMPLE CUSTOMFIELD NUMBER' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

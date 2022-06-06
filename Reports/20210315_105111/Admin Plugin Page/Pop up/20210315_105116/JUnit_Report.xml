@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pop up" time="41.192" tests="42" failures="0" errors="0">
+   <testsuite name="Pop up" tests="42" failures="0" errors="0" time="41.192" timestamp="2021-03-15 10:52:06" hostname="Natasha - Natasha-PC" id="Test Suites/Admin Plugin Page/Pop up">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\GITHUB\\automation_profile_input\\Reports\\20210315_105111\\Admin Plugin Page\\Pop up\\20210315_105116"/>
+         <property name="logFiles" value="D:\\GITHUB\\automation_profile_input\\Reports\\20210315_105111\\Admin Plugin Page\\Pop up\\20210315_105116\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Natasha - Natasha-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 89.0.4389.82"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="4452957f0d2f6aeb403bada6dd70da8b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Utilities/Admin Login" time="9.82" classname="Test Cases/Utilities/Admin Login" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:06 - [TEST_CASE][PASSED] - Test Cases/Utilities/Admin Login: Test Cases/Utilities/Admin Login
+
+2021-03-15 10:52:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-15 10:52:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-15 10:52:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-15 10:52:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-15 10:52:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-15 10:52:09 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-15 10:52:09 - [TEST_STEP][PASSED] - navigateToUrl(admin_url): Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-03-15 10:52:12 - [MESSAGE][PASSED] - Navigate to 'https://youhadmeathelloworld.arcadier.io/admin' successfully
+
+2021-03-15 10:52:12 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-03-15 10:52:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-15 10:52:12 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_username"), admin_username): Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-03-15 10:52:13 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/Admin/Admin Login/txt_username'
+
+2021-03-15 10:52:13 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login/txt_password"), admin_password): Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-03-15 10:52:13 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/Admin/Admin Login/txt_password'
+
+2021-03-15 10:52:13 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Login/button_login")): Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on
+
+2021-03-15 10:52:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Login/button_login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Utilities/Navigate to Plugin" time="3.492" classname="Test Cases/Utilities/Navigate to Plugin" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:16 - [TEST_CASE][PASSED] - Test Cases/Utilities/Navigate to Plugin: Test Cases/Utilities/Navigate to Plugin
+
+2021-03-15 10:52:16 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_plugin")): Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-03-15 10:52:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_plugin' is clicked on
+
+2021-03-15 10:52:17 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Navigation/link_profile")): Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on
+
+2021-03-15 10:52:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Navigation/link_profile' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_028" time="0.877" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_028" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:20 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_028: Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_028
+
+2021-03-15 10:52:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/label_customfields"), 0): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/label_customfields' is present
+
+2021-03-15 10:52:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 10:52:20 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/label_customfields' is present
+
+2021-03-15 10:52:20 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Description/btn_add")): Object: 'Object Repository/Admin/Plugin Page/Description/btn_add' is clicked on
+
+2021-03-15 10:52:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Description/btn_add' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_029" time="0.685" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_029" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:21 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_029: Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_029
+
+2021-03-15 10:52:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/btn_close"), 0): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/btn_close' is present
+
+2021-03-15 10:52:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 10:52:21 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/btn_close' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_030" time="0.396" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_030" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:21 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_030: Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_030
+
+2021-03-15 10:52:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/label_custom_name"), 0): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/label_custom_name' is present
+
+2021-03-15 10:52:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 10:52:22 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/label_custom_name' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_031" time="0.379" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_031" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:22 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_031: Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_031
+
+2021-03-15 10:52:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/text_custom_name"), 0): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/text_custom_name' is present
+
+2021-03-15 10:52:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 10:52:22 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/text_custom_name' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_032" time="0.387" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_032" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:22 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_032: Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_032
+
+2021-03-15 10:52:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/label_Type"), 0): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/label_Type' is present
+
+2021-03-15 10:52:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 10:52:22 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/label_Type' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_033" time="0.395" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_033" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:22 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_033: Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_033
+
+2021-03-15 10:52:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type"), 0): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' is present
+
+2021-03-15 10:52:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 10:52:23 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_034" time="0.457" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_034" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:23 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_034: Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_034
+
+2021-03-15 10:52:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/btn_save"), 0): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/btn_save' is present
+
+2021-03-15 10:52:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 10:52:23 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/btn_save' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_035" time="0.136" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_035" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:23 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_035: Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_035
+
+2021-03-15 10:52:23 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_036" time="0.411" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_036" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:23 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_036: Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_036
+
+2021-03-15 10:52:24 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/text_custom_name"), "value", "", 0): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/text_custom_name' has attribute 'value' with value ''
+
+2021-03-15 10:52:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 10:52:24 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/text_custom_name' has attribute 'value' with value '']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_037" time="1.235" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_037" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:24 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_037: Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_037
+
+2021-03-15 10:52:24 - [TEST_STEP][PASSED] - verifyOptionSelectedByValue(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type"), "textfield", false, 0): All options with value 'textfield' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2021-03-15 10:52:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 10:52:25 - [MESSAGE][PASSED] - All options with value 'textfield' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_038" time="0.409" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_038" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:25 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_038: Test Cases/Admin Page/UI/Pop-up (Modal)/Default Values/TC_UI_038
+
+2021-03-15 10:52:25 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/btn_save")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/btn_save' is clickable
+
+2021-03-15 10:52:25 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/btn_save' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_005" time="1.121" classname="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_005" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:25 - [TEST_CASE][PASSED] - Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_005: Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_005
+
+2021-03-15 10:52:26 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type"), "Number", false): All options with label 'Number' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2021-03-15 10:52:26 - [MESSAGE][PASSED] - All options with label 'Number' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2021-03-15 10:52:26 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/label_Options")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is NOT visible
+
+2021-03-15 10:52:27 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is NOT visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_006" time="1.159" classname="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_006" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:27 - [TEST_CASE][PASSED] - Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_006: Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_006
+
+2021-03-15 10:52:27 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type"), "Text", false): All options with label 'Text' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2021-03-15 10:52:27 - [MESSAGE][PASSED] - All options with label 'Text' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2021-03-15 10:52:27 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/label_Options")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is NOT visible
+
+2021-03-15 10:52:28 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is NOT visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_007" time="1.112" classname="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_007" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:28 - [TEST_CASE][PASSED] - Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_007: Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_007
+
+2021-03-15 10:52:28 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type"), "Checkbox", false): All options with label 'Checkbox' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2021-03-15 10:52:29 - [MESSAGE][PASSED] - All options with label 'Checkbox' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2021-03-15 10:52:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/label_Options")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is visible
+
+2021-03-15 10:52:29 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_008" time="0.981" classname="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_008" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:29 - [TEST_CASE][PASSED] - Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_008: Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_008
+
+2021-03-15 10:52:29 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type"), "Dropdown", false): All options with label 'Dropdown' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2021-03-15 10:52:30 - [MESSAGE][PASSED] - All options with label 'Dropdown' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2021-03-15 10:52:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/label_Options")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is visible
+
+2021-03-15 10:52:30 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_005" time="0.867" classname="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_005" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:30 - [TEST_CASE][PASSED] - Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_005: Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_005
+
+2021-03-15 10:52:30 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type"), "Number", false): All options with label 'Number' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2021-03-15 10:52:30 - [MESSAGE][PASSED] - All options with label 'Number' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2021-03-15 10:52:30 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/label_Options")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is NOT visible
+
+2021-03-15 10:52:31 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is NOT visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_006" time="0.992" classname="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_006" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:31 - [TEST_CASE][PASSED] - Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_006: Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_006
+
+2021-03-15 10:52:31 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type"), "Text", false): All options with label 'Text' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2021-03-15 10:52:31 - [MESSAGE][PASSED] - All options with label 'Text' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2021-03-15 10:52:31 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/label_Options")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is NOT visible
+
+2021-03-15 10:52:32 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is NOT visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_007" time="1.031" classname="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_007" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:32 - [TEST_CASE][PASSED] - Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_007: Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_007
+
+2021-03-15 10:52:32 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type"), "Checkbox", false): All options with label 'Checkbox' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2021-03-15 10:52:32 - [MESSAGE][PASSED] - All options with label 'Checkbox' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2021-03-15 10:52:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/label_Options")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is visible
+
+2021-03-15 10:52:33 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_008" time="0.959" classname="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_008" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:33 - [TEST_CASE][PASSED] - Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_008: Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Dropdown Changed/TC_SIMPLE_008
+
+2021-03-15 10:52:33 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type"), "Dropdown", false): All options with label 'Dropdown' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2021-03-15 10:52:33 - [MESSAGE][PASSED] - All options with label 'Dropdown' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2021-03-15 10:52:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/label_Options")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is visible
+
+2021-03-15 10:52:34 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_047" time="1.147" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_047" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:34 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_047: Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_047
+
+2021-03-15 10:52:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_039"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_039' successfully
+
+2021-03-15 10:52:34 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_039: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_039
+
+2021-03-15 10:52:34 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type"), "Checkbox", false): All options with label 'Checkbox' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2021-03-15 10:52:35 - [MESSAGE][PASSED] - All options with label 'Checkbox' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2021-03-15 10:52:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/label_Options")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is visible
+
+2021-03-15 10:52:35 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is visible
+
+2021-03-15 10:52:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_039' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_048" time="0.634" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_048" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:35 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_048: Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_048
+
+2021-03-15 10:52:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040' successfully
+
+2021-03-15 10:52:35 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040
+
+2021-03-15 10:52:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/btn_draggable")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_draggable' is visible
+
+2021-03-15 10:52:36 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_draggable' is visible
+
+2021-03-15 10:52:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_049" time="0.642" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_049" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:36 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_049: Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_049
+
+2021-03-15 10:52:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_041"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_041' successfully
+
+2021-03-15 10:52:36 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_041: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_041
+
+2021-03-15 10:52:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/txt_option_name")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/txt_option_name' is visible
+
+2021-03-15 10:52:36 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/txt_option_name' is visible
+
+2021-03-15 10:52:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_041' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_050" time="0.572" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_050" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:36 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_050: Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_050
+
+2021-03-15 10:52:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_042"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_042' successfully
+
+2021-03-15 10:52:36 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_042: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_042
+
+2021-03-15 10:52:36 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/txt_option_name"), "value", "", 0): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/txt_option_name' has attribute 'value' with value ''
+
+2021-03-15 10:52:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 10:52:37 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/txt_option_name' has attribute 'value' with value ''
+
+2021-03-15 10:52:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_042' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_051" time="0.539" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_051" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:37 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_051: Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_051
+
+2021-03-15 10:52:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043' successfully
+
+2021-03-15 10:52:37 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043
+
+2021-03-15 10:52:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove' is visible
+
+2021-03-15 10:52:37 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove' is visible
+
+2021-03-15 10:52:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_052" time="0.508" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_052" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:37 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_052: Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_052
+
+2021-03-15 10:52:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_044"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_044' successfully
+
+2021-03-15 10:52:37 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_044: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_044
+
+2021-03-15 10:52:38 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove' is clickable
+
+2021-03-15 10:52:38 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove' is clickable
+
+2021-03-15 10:52:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_044' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_053" time="0.526" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_053" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:38 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_053: Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_053
+
+2021-03-15 10:52:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_045"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_045' successfully
+
+2021-03-15 10:52:38 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_045: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_045
+
+2021-03-15 10:52:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option' is visible
+
+2021-03-15 10:52:38 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option' is visible
+
+2021-03-15 10:52:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_045' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_054" time="0.565" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_054" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:38 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_054: Test Cases/Admin Page/UI/Pop-up (Modal)/Dropdown Selected/TC_UI_054
+
+2021-03-15 10:52:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_046"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_046' successfully
+
+2021-03-15 10:52:38 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_046: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_046
+
+2021-03-15 10:52:39 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option' is clickable
+
+2021-03-15 10:52:39 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option' is clickable
+
+2021-03-15 10:52:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_046' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_039" time="0.798" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_039" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:39 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_039: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_039
+
+2021-03-15 10:52:39 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type"), "Checkbox", false): All options with label 'Checkbox' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2021-03-15 10:52:39 - [MESSAGE][PASSED] - All options with label 'Checkbox' are selected in object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/dropdown_type' 
+
+2021-03-15 10:52:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/label_Options")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is visible
+
+2021-03-15 10:52:40 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/label_Options' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040" time="0.267" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:40 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040
+
+2021-03-15 10:52:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/btn_draggable")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_draggable' is visible
+
+2021-03-15 10:52:40 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_draggable' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_041" time="0.263" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_041" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:40 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_041: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_041
+
+2021-03-15 10:52:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/txt_option_name")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/txt_option_name' is visible
+
+2021-03-15 10:52:40 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/txt_option_name' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_042" time="0.27" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_042" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:40 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_042: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_042
+
+2021-03-15 10:52:40 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/txt_option_name"), "value", "", 0): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/txt_option_name' has attribute 'value' with value ''
+
+2021-03-15 10:52:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 10:52:41 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/txt_option_name' has attribute 'value' with value '']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043" time="0.266" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:41 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043
+
+2021-03-15 10:52:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove' is visible
+
+2021-03-15 10:52:41 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_044" time="0.276" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_044" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:41 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_044: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_044
+
+2021-03-15 10:52:41 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove' is clickable
+
+2021-03-15 10:52:41 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_045" time="0.281" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_045" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:41 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_045: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_045
+
+2021-03-15 10:52:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option' is visible
+
+2021-03-15 10:52:41 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_046" time="0.311" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_046" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:41 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_046: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_046
+
+2021-03-15 10:52:41 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option' is clickable
+
+2021-03-15 10:52:42 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Add Option Clicked/TC_SIMPLE_009" time="1.018" classname="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Add Option Clicked/TC_SIMPLE_009" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:42 - [TEST_CASE][PASSED] - Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Add Option Clicked/TC_SIMPLE_009: Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Add Option Clicked/TC_SIMPLE_009
+
+2021-03-15 10:52:42 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option")): Object: 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option' is clicked on
+
+2021-03-15 10:52:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_add_option' is clicked on
+
+2021-03-15 10:52:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/new_option"), 0): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/new_option' is present
+
+2021-03-15 10:52:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 10:52:43 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/new_option' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Add Option Clicked/TC_UI_055" time="0.49" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Add Option Clicked/TC_UI_055" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:43 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Add Option Clicked/TC_UI_055: Test Cases/Admin Page/UI/Pop-up (Modal)/Add Option Clicked/TC_UI_055
+
+2021-03-15 10:52:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043' successfully
+
+2021-03-15 10:52:43 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043
+
+2021-03-15 10:52:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove' is visible
+
+2021-03-15 10:52:43 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_remove' is visible
+
+2021-03-15 10:52:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_043' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/UI/Pop-up (Modal)/Add Option Clicked/TC_UI_056" time="0.529" classname="Test Cases/Admin Page/UI/Pop-up (Modal)/Add Option Clicked/TC_UI_056" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:43 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Add Option Clicked/TC_UI_056: Test Cases/Admin Page/UI/Pop-up (Modal)/Add Option Clicked/TC_UI_056
+
+2021-03-15 10:52:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040' successfully
+
+2021-03-15 10:52:43 - [TEST_CASE][PASSED] - Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040: Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040
+
+2021-03-15 10:52:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/btn_draggable")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_draggable' is visible
+
+2021-03-15 10:52:44 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/btn_draggable' is visible
+
+2021-03-15 10:52:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Page/UI/Pop-up (Modal)/Checkbox Selected/TC_UI_040' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Remove button Clicked/TC_SIMPLE_10" time="1.083" classname="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Remove button Clicked/TC_SIMPLE_10" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:44 - [TEST_CASE][PASSED] - Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Remove button Clicked/TC_SIMPLE_10: Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Remove button Clicked/TC_SIMPLE_10
+
+2021-03-15 10:52:44 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/new_delete")): Object: 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/new_delete' is clicked on
+
+2021-03-15 10:52:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/new_delete' is clicked on
+
+2021-03-15 10:52:44 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Options/new_option"), 0): Web element with id: 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/new_option' located by 'By.xpath: //*[@class = 'maindiv ui-sortable-handle newOption']' is not present after '30' second(s)
+
+2021-03-15 10:52:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 10:52:45 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Options/new_option' located by 'By.xpath: //*[@class = 'maindiv ui-sortable-handle newOption']' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Close Button Clicked/TC_SIMPLE_11" time="1.739" classname="Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Close Button Clicked/TC_SIMPLE_11" status="PASSED">
+         <system-out><![CDATA[2021-03-15 10:52:45 - [TEST_CASE][PASSED] - Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Close Button Clicked/TC_SIMPLE_11: Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Close Button Clicked/TC_SIMPLE_11
+
+2021-03-15 10:52:45 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/btn_close")): Object: 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/btn_close' is clicked on
+
+2021-03-15 10:52:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/btn_close' is clicked on
+
+2021-03-15 10:52:46 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Admin/Plugin Page/Modal(Pop-up)/Main/pop_up")): Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/pop_up' is NOT visible
+
+2021-03-15 10:52:47 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Plugin Page/Modal(Pop-up)/Main/pop_up' is NOT visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-03-15 10:52:06 - [TEST_SUITE][PASSED] - Pop up: Test Cases/Admin Page/SIMPLE/Pop-up (Modal)/Close Button Clicked/TC_SIMPLE_11]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
